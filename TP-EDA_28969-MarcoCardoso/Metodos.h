@@ -2,9 +2,11 @@
 * Email: a27969@alunos.ipca.pt
 * Autor: Marco Cardoso
 * Data (Inicio): 09/03/2024
-* Versao: 0.0
-* Data (Ultima Modificacao): 09/03/2024
+* Versao: 0.2
+* Data (Ultima Modificacao): 12/03/2024
 */
+
+
 #pragma once
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,53 +15,65 @@
 #include "Structs.h"
 
 #pragma region Relacionada com Listas Ligadas
-/// <summary>
-/// Aloca memoria para guardar uma estrutra do tipo 'Matriz*'
-/// </summary>
-/// <param name="valor">Int - Valor a guardar dentro da estrutura</param>
-/// <returns>Matriz* - 'Celula' que depois pode ser anexada a uma lista ligada</returns>
+/**
+ * Aloca memoria para guardar uma estrutra do tipo 'Matriz*'.
+ */
 Matriz* CriarMatriz(int valor);
-/// <summary>
-/// Insere uma 'celula' no fim de uma lista ligada
-/// </summary>
-/// <param name="inicio">Matriz* - O primeiro endereco da lista ligada</param>
-/// <param name="novoValor">Matriz* - 'Celula' a guardar</param>
-/// <returns>Matriz* - Lista ligada com a 'celula' no fim dela</returns>
+/**
+ * Insere uma 'celula' no fim de uma lista ligada.
+ */
 Matriz* InserirMatrizFim(Matriz* inicio, Matriz* novoValor);
-/// <summary>
-/// Insere varias 'celulas' a lista ligada, no final dela
-/// </summary>
-/// <param name="inicio">Matriz* - O primeiro endereco da lista ligada</param>
-/// <param name="valoresTodos">Int* - Array dinamico de inteiros</param>
-/// <param name="quantValores">Int - Quantidade de valores</param>
-/// <returns>Matriz* - Lista ligada com todas as 'celulas'</returns>
-Matriz* InserirMatrizesFim(Matriz* inicio, int* valoresTodos, int quantValores);
+/**
+ * Insere varias 'celulas' a lista ligada, no final dela.
+ */
+Matriz* CriarListaLigada(Matriz* inicio, int* valoresTodos, int quantValores);
+
+/**
+ * Muda um valor a escolha do utilizador por outro valor a escolha do utilizador na matriz.
+ */
+Matriz* MudarValorMatriz(Matriz* inicio, int quantValores, int valorAMudar, int valor);
+
+/**
+ * Insere uma linha na matriz.
+ */
+Matriz* InserirLinhaMatriz(Matriz* inicio, int* valoresAdicionar, int quantColunas, int* quantLinhas);
+/**
+ * Insere uma coluna na matriz.
+ */
+Matriz* InserirColunaMatriz(Matriz* inicio, int* valoresColuna, int quantLinhas, int* quantColunas);
+/**
+ * Remove uma linha na matriz.
+ */
+Matriz* RemoverLinhaMatriz(Matriz* inicio, int quantColunas, int* quantLinhas);
 #pragma endregion
 #pragma region Relacionado com Ficheiros
-/// <summary>
-/// Conta quantos valores existem num ficheiro
-/// </summary>
-/// <param name="nomeFicheiro">Char[] - Nome do ficheiro a ler</param>
-/// <returns>Int - Quantidade de valores</returns>
+/**
+ * Conta quantos valores existem num ficheiro.
+ */
 int ContarValoresFicheiro(char nomeFicheiro[]);
-/// <summary>
-/// Guarda os valores de um ficheiro para um array dinamico de inteiros
-/// </summary>
-/// <param name="quant">Int - Quantidade de valores dentro do ficheiro</param>
-/// <param name="nomeFicheiro">Char[] - Nome do ficheiro a ler</param>
-/// <returns>Int* - Array dinamico de inteiros</returns>
+/**
+ * Guarda os valores de um ficheiro para um array dinamico de inteiros.
+ */
 int* ImportarValoresFicheiro(int quant, char nomeFicheiro[]);
+/**
+ * Conta quantas linhas tem num ficheiro .csv .
+ */
+int ContarLinhas(char nomeFicheiro[]);
+/**
+ * Conta quantas colunas tem num ficheiro .csv .
+ */
+int ContarColunas(char nomeFicheiro[]);
 #pragma endregion
 #pragma region Mostrar Matrizes
-/// <summary>
-/// Mostra apenas uma 'celula' de uma lista ligada
-/// </summary>
-/// <param name="nr">Matriz - Uma 'celula' da lista ligada</param>
+/**
+ * Mostra apenas uma 'celula' de uma lista ligada.
+ */
 void MostrarMatriz(Matriz* nr);
-/// <summary>
-/// Mostra toda uma lista ligada
-/// </summary>
-/// <param name="inicio">Matriz* - O primeiro endereco da lista ligada</param>
+/**
+ * Mostra toda uma lista ligada.
+ */
 void MostrarMatrizes(Matriz* inicio);
+
+void displayMatrix(Matriz* head, int rows, int columns);
 #pragma endregion
 
