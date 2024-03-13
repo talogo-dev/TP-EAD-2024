@@ -31,8 +31,9 @@ Matriz* CriarListaLigada(Matriz* inicio, int* valoresTodos, int quantValores);
 /**
  * Muda um valor a escolha do utilizador por outro valor a escolha do utilizador na matriz.
  */
-Matriz* MudarValorMatriz(Matriz* inicio, int quantValores, int valorAMudar, int valor);
+Matriz* MudarValorMatriz(Matriz* inicio, int valorAMudar, int valor);
 
+Matriz* MudarValorMatrizLinhaEColuna(Matriz* inicio, int coluna, int linha, int valor);
 /**
  * Insere uma linha na matriz.
  */

@@ -84,7 +84,7 @@ Matriz* CriarListaLigada(Matriz* inicio, int* valoresTodos, int quantValores)
  * \param valor Valor no qual o "Valor a mudar" vai ficar
  * \return Lista ligada com os valores mudados
  */
-Matriz* MudarValorMatriz(Matriz* inicio, int quantValores, int valorAMudar, int valor)
+Matriz* MudarValorMatriz(Matriz* inicio, int valorAMudar, int valor)
 {
 	Matriz* aux = inicio;
 
@@ -96,6 +96,32 @@ Matriz* MudarValorMatriz(Matriz* inicio, int quantValores, int valorAMudar, int 
 		}
 		aux = aux->prox;
 	}
+
+	return inicio;
+}
+
+/**
+ * Mudar o valor de uma matriz dada a sua linha e coluna.
+ * 
+ * \param inicio O primeiro endereco da lista ligada
+ * \param coluna
+ * \param linha
+ * \param valor
+ * \return 
+ */
+Matriz* MudarValorMatrizLinhaEColuna(Matriz* inicio, int coluna, int linha, int valor)
+{
+	Matriz* aux = inicio;
+	int i = 0;
+	int posicao = coluna * linha;
+
+	while (i < posicao - 1)
+	{
+		aux = aux->prox;
+		i++;
+	}
+
+	aux->valor = valor;
 
 	return inicio;
 }
@@ -152,11 +178,12 @@ Matriz* RemoverLinhaMatriz(Matriz* inicio, int quantColunas, int* quantLinhas)
 
 	while (i < quantColunas)
 	{
-		aux = NULL;
+		free(aux);
 		i++;
 	}
 
 	*(quantLinhas) = *(quantLinhas) - 1;
+	
 	
 
 	return inicio;
@@ -334,23 +361,27 @@ int* ImportarValoresFicheiro(int quant, char nomeFicheiro[])
  */
 int ContarLinhas(char nomeFicheiro[])
 {
-	int cont = 0;
 	FILE* fp;
+	int cont = 0;
 	char caractere;
 
 	fp = fopen(nomeFicheiro, "r");
 	if (fp == NULL) return -1;
 
-	// Enquanto nao for o fim do ficheiro
-	while ((caractere = fgetc(fp)) != EOF) {
-		// Verifica se o caracter e igual a mudar de linha
-		if (caractere == '\n') {
+	// Enquanto nao for o fim do ficheiro, caractere le um caractere do ficheiro
+	while ((caractere = fgetc(fp)) != EOF) 
+	{
+		// Verifica se o caracter e igual a "\n"
+		if (caractere == '\n') 
+		{
+			// se for, cont aumenta
 			cont++;
 		}
 	}
 	
 	// nao sei porque, mas le um \n a mais
 	cont--;
+
 	fclose(fp);
 	return cont;
 }
@@ -363,9 +394,10 @@ int ContarLinhas(char nomeFicheiro[])
  */
 int ContarColunas(char nomeFicheiro[])
 {
-	int cont = 0;
 	FILE* fp;
+	int cont = 0;
 	char caractere;
+
 	fp = fopen(nomeFicheiro, "r");
 	if (fp == NULL) return -1;
 

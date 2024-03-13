@@ -6,6 +6,8 @@
 * Data (Ultima Modificacao): 12/03/2024
 */
 
+//!!!! MUDAR O NOME DO PROJETO (esta 28969 ao inves de 27969)
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -15,12 +17,15 @@
 
 int main()
 {
+	#pragma region Inicialização de variáveis
 	Matriz* inicio = NULL;
 	int* valoresTodos = NULL;
 	int linhas = 0;
 	int colunas = 0;
 	int quantidadeValores = 0;
+	#pragma endregion
 
+	#pragma region Valores Para a linha e coluna
 	int* valoresLinhaAdicionar = (int*)malloc(sizeof(int) * 5);
 	*(valoresLinhaAdicionar) = 100;
 	*(valoresLinhaAdicionar + 1) = 200;
@@ -35,22 +40,27 @@ int main()
 	*(valoresColunaAdicionar + 3) = 999;
 	*(valoresColunaAdicionar + 4) = 999;
 	*(valoresColunaAdicionar + 5) = 999;
+	#pragma endregion
 
+	#pragma region Chamadas de métodos
 	//int quantidadeValores = ContarValoresFicheiro("DadosMatriz.csv"); // Funciona
 	linhas = ContarLinhas("DadosMatriz.csv"); // Funciona +/-
 	colunas = ContarColunas("DadosMatriz.csv"); // Funciona
+	// Calcula a quantidade de valores que existe dentro do ficheiro .csv
 	quantidadeValores = linhas * colunas;
 
 	valoresTodos = ImportarValoresFicheiro(quantidadeValores, "DadosMatriz.csv"); // Funciona
 
 	inicio = CriarListaLigada(inicio, valoresTodos, quantidadeValores); // Funciona
-	inicio = MudarValorMatriz(inicio, quantidadeValores, 7, 0); // Funciona
-	inicio = InserirLinhaMatriz(inicio, valoresLinhaAdicionar, colunas, &linhas); // Funciona
-	inicio = InserirColunaMatriz(inicio, valoresColunaAdicionar, linhas, &colunas); // Funciona +/-
+	inicio = MudarValorMatriz(inicio, 53, 0); // Funciona
+	inicio = MudarValorMatrizLinhaEColuna(inicio, 3, 1, 1111);// Funciona (tenho de saber explicar)
+	//inicio = InserirLinhaMatriz(inicio, valoresLinhaAdicionar, colunas, &linhas); // Funciona
+	//inicio = InserirColunaMatriz(inicio, valoresColunaAdicionar, linhas, &colunas); // Funciona +/- (tenho de saber explicar)
 	//inicio = RemoverLinhaMatriz(inicio, colunas, &linhas); // Funciona
+	#pragma endregion
 
-	MostrarMatrizes(inicio);
 
+	//MostrarMatrizes(inicio);
 	displayMatrix(inicio, linhas, colunas);
 
 	// Limpar os apontadores
