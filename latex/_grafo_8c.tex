@@ -1,0 +1,185 @@
+\doxysection{TP-\/\+EDA\+\_\+27969-\/\+Marco\+Cardoso\+\_\+\+Grupo2-\/\+LIB/\+Grafo.c File Reference}
+\hypertarget{_grafo_8c}{}\label{_grafo_8c}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Grafo.c@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Grafo.c}}
+
+
+Ficheiro que guarda os métodos relativos a grafos.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include "{}Structs.\+h"{}}\newline
+{\ttfamily \#include "{}Grafo.\+h"{}}\newline
+{\ttfamily \#include "{}Vertice.\+h"{}}\newline
+{\ttfamily \#include "{}Fila.\+h"{}}\newline
+Include dependency graph for Grafo.\+c\+:
+% FIG 0
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_grafo_8c_a392fb874e547e582e9c66a08a1f23326}{MAX}}~10
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_grafo_8c_ad8be19957f0c984e53675fbf624e1c20}{Criar\+Grafo}} (int max\+Vertices)
+\item 
+void \mbox{\hyperlink{_grafo_8c_abad7e01f34e1c83354d33cd5fb6d35fe}{Mostrar\+Grafo}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}grafo\+Inicio)
+\item 
+void \mbox{\hyperlink{_grafo_8c_a7c941ce2f5b32501e30ed7b37dd2b30d}{Mostrar\+Grafo\+V2}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}gr)
+\item 
+void \mbox{\hyperlink{_grafo_8c_a5f2b99a455cb4d1d5c87d4bdc5ca4d0e}{Processa\+Vertice}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}v)
+\item 
+bool \mbox{\hyperlink{_grafo_8c_abc313ae9f7772ffafe66900ea1f67a41}{Breadth\+First\+Traversal\+LA}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}g, int v\+Origin)
+\item 
+bool \mbox{\hyperlink{_grafo_8c_a346fdead5ba51319b7ca03736fbb60ba}{Breadth\+First\+Search\+LA}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}g, int v\+Origin, int v\+Destino, int \texorpdfstring{$\ast$}{*}soma\+Caminho, int \texorpdfstring{$\ast$}{*}soma\+Id)
+\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_grafo_8c_a60f4b1314cc3b1570c37630f08c941c3}{Limpar\+Visitado\+Vertices}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Ver)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro que guarda os métodos relativos a grafos. 
+
+\textbackslash{}email \href{mailto:a27969@alunos.ipca.pt}{\texttt{ a27969@alunos.\+ipca.\+pt}} \begin{DoxyAuthor}{Author}
+Marco Cardoso 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+24 maio 2024 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{_grafo_8c_a392fb874e547e582e9c66a08a1f23326}\label{_grafo_8c_a392fb874e547e582e9c66a08a1f23326} 
+\index{Grafo.c@{Grafo.c}!MAX@{MAX}}
+\index{MAX@{MAX}!Grafo.c@{Grafo.c}}
+\doxysubsubsection{\texorpdfstring{MAX}{MAX}}
+{\footnotesize\ttfamily \#define MAX~10}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_grafo_8c_a346fdead5ba51319b7ca03736fbb60ba}\label{_grafo_8c_a346fdead5ba51319b7ca03736fbb60ba} 
+\index{Grafo.c@{Grafo.c}!BreadthFirstSearchLA@{BreadthFirstSearchLA}}
+\index{BreadthFirstSearchLA@{BreadthFirstSearchLA}!Grafo.c@{Grafo.c}}
+\doxysubsubsection{\texorpdfstring{BreadthFirstSearchLA()}{BreadthFirstSearchLA()}}
+{\footnotesize\ttfamily bool Breadth\+First\+Search\+LA (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{g,  }\item[{int}]{v\+Origin,  }\item[{int}]{v\+Destino,  }\item[{int \texorpdfstring{$\ast$}{*}}]{soma\+Caminho,  }\item[{int \texorpdfstring{$\ast$}{*}}]{soma\+Id }\end{DoxyParamCaption})}
+
+Procura um caminho entre 2 vertices, retorna a soma das ajdas e a soma dos ID\textquotesingle{}s.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & \doxylink{struct_grafo}{Grafo} \\
+\hline
+{\em v\+Origin} & \doxylink{struct_vertice}{Vertice} origem \\
+\hline
+{\em v\+Destino} & \doxylink{struct_vertice}{Vertice} destino \\
+\hline
+{\em soma\+Caminho} & Soma do caminho entre os 2 vertices \\
+\hline
+{\em soma\+Id} & Soma dos vertices pelo caminho \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean -\/ Se encontrou caminho ou nao 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 1
+\Hypertarget{_grafo_8c_abc313ae9f7772ffafe66900ea1f67a41}\label{_grafo_8c_abc313ae9f7772ffafe66900ea1f67a41} 
+\index{Grafo.c@{Grafo.c}!BreadthFirstTraversalLA@{BreadthFirstTraversalLA}}
+\index{BreadthFirstTraversalLA@{BreadthFirstTraversalLA}!Grafo.c@{Grafo.c}}
+\doxysubsubsection{\texorpdfstring{BreadthFirstTraversalLA()}{BreadthFirstTraversalLA()}}
+{\footnotesize\ttfamily bool Breadth\+First\+Traversal\+LA (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{g,  }\item[{int}]{v\+Origin }\end{DoxyParamCaption})}
+
+Percorre o caminho de um grafo a partir de um vertice.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & \doxylink{struct_grafo}{Grafo} \\
+\hline
+{\em v\+Origin} & \doxylink{struct_vertice}{Vertice} de origem \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean -\/ Verifica se conseguiu ou nao 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 2
+\Hypertarget{_grafo_8c_ad8be19957f0c984e53675fbf624e1c20}\label{_grafo_8c_ad8be19957f0c984e53675fbf624e1c20} 
+\index{Grafo.c@{Grafo.c}!CriarGrafo@{CriarGrafo}}
+\index{CriarGrafo@{CriarGrafo}!Grafo.c@{Grafo.c}}
+\doxysubsubsection{\texorpdfstring{CriarGrafo()}{CriarGrafo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Criar\+Grafo (\begin{DoxyParamCaption}\item[{int}]{max\+Vertices }\end{DoxyParamCaption})}
+
+Cria um grafo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em max\+Vertices} & Máximo de vértices a armazenar \\
+\hline
+{\em erro} & Controlo de erros \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Grafo\texorpdfstring{$\ast$}{*} -\/ \doxylink{struct_grafo}{Grafo} 
+\end{DoxyReturn}
+\Hypertarget{_grafo_8c_a60f4b1314cc3b1570c37630f08c941c3}\label{_grafo_8c_a60f4b1314cc3b1570c37630f08c941c3} 
+\index{Grafo.c@{Grafo.c}!LimparVisitadoVertices@{LimparVisitadoVertices}}
+\index{LimparVisitadoVertices@{LimparVisitadoVertices}!Grafo.c@{Grafo.c}}
+\doxysubsubsection{\texorpdfstring{LimparVisitadoVertices()}{LimparVisitadoVertices()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Limpar\+Visitado\+Vertices (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Ver }\end{DoxyParamCaption})}
+
+Coloca o campo visitado a true de uma lista de vertices.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Ver} & Lista de vertices \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vertice\texorpdfstring{$\ast$}{*} -\/ Retorna a lista do vertices 
+\end{DoxyReturn}
+\Hypertarget{_grafo_8c_abad7e01f34e1c83354d33cd5fb6d35fe}\label{_grafo_8c_abad7e01f34e1c83354d33cd5fb6d35fe} 
+\index{Grafo.c@{Grafo.c}!MostrarGrafo@{MostrarGrafo}}
+\index{MostrarGrafo@{MostrarGrafo}!Grafo.c@{Grafo.c}}
+\doxysubsubsection{\texorpdfstring{MostrarGrafo()}{MostrarGrafo()}}
+{\footnotesize\ttfamily void Mostrar\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{grafo\+Inicio }\end{DoxyParamCaption})}
+
+Mostra um grafo a partir de um vertice.
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo\+Inicio} & Inicio do grafo \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 3
+\Hypertarget{_grafo_8c_a7c941ce2f5b32501e30ed7b37dd2b30d}\label{_grafo_8c_a7c941ce2f5b32501e30ed7b37dd2b30d} 
+\index{Grafo.c@{Grafo.c}!MostrarGrafoV2@{MostrarGrafoV2}}
+\index{MostrarGrafoV2@{MostrarGrafoV2}!Grafo.c@{Grafo.c}}
+\doxysubsubsection{\texorpdfstring{MostrarGrafoV2()}{MostrarGrafoV2()}}
+{\footnotesize\ttfamily void Mostrar\+Grafo\+V2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{gr }\end{DoxyParamCaption})}
+
+Mostra um grafo dado um grafo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em gr} & \doxylink{struct_grafo}{Grafo} a mostrar \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 4
+\Hypertarget{_grafo_8c_a5f2b99a455cb4d1d5c87d4bdc5ca4d0e}\label{_grafo_8c_a5f2b99a455cb4d1d5c87d4bdc5ca4d0e} 
+\index{Grafo.c@{Grafo.c}!ProcessaVertice@{ProcessaVertice}}
+\index{ProcessaVertice@{ProcessaVertice}!Grafo.c@{Grafo.c}}
+\doxysubsubsection{\texorpdfstring{ProcessaVertice()}{ProcessaVertice()}}
+{\footnotesize\ttfamily void Processa\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{v }\end{DoxyParamCaption})}
+
+Mostra \doxylink{struct_vertice}{Vertice}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & \doxylink{struct_vertice}{Vertice} a mostrar \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 5

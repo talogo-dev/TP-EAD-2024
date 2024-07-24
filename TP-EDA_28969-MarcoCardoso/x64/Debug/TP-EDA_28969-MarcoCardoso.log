@@ -1,4 +1,0 @@
-﻿  Metodos.c
-C:\Users\Marco\Desktop\TrabalhoPraticoASERIO\TP-EAD-2024\TP-EDA_28969-MarcoCardoso\Metodos.c(334,18): warning C4047: 'return': 'int *' difere em níveis de indireção de 'int'
-C:\Users\Marco\Desktop\TrabalhoPraticoASERIO\TP-EAD-2024\TP-EDA_28969-MarcoCardoso\Metodos.c(336,23): warning C4047: 'return': 'int *' difere em níveis de indireção de 'int'
-  TP-EDA_28969-MarcoCardoso.vcxproj -> C:\Users\Marco\Desktop\TrabalhoPraticoASERIO\TP-EAD-2024\x64\Debug\TP-EDA_28969-MarcoCardoso.exe

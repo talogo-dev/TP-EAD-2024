@@ -1,0 +1,32 @@
+\doxysection{Grafo.\+h}
+\hypertarget{_grafo_8h_source}{}\label{_grafo_8h_source}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Grafo.h@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Grafo.h}}
+\mbox{\hyperlink{_grafo_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*****************************************************************/}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <stdlib.h>}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_structs_8h}{Structs.h}}"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_grafo_8h}{Grafo.h}}"{}}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#pragma\ region\ Criacao}}
+\DoxyCodeLine{00021\ \mbox{\hyperlink{struct_grafo}{Grafo}}*\ \mbox{\hyperlink{_grafo_8h_ad8be19957f0c984e53675fbf624e1c20}{CriarGrafo}}(\textcolor{keywordtype}{int}\ maxVertices);}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#pragma\ region\ Mostragem\ do\ grafo}}
+\DoxyCodeLine{00027\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_grafo_8h_aa4fcb117fd16b1e6cec066f74f4cfe5c}{MostrarGrafo}}(\mbox{\hyperlink{struct_vertice}{Vertice}}\ *\ graph);}
+\DoxyCodeLine{00031\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_grafo_8h_a7c941ce2f5b32501e30ed7b37dd2b30d}{MostrarGrafoV2}}(\mbox{\hyperlink{struct_grafo}{Grafo}}\ *\ gr);}
+\DoxyCodeLine{00035\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_grafo_8h_a5f2b99a455cb4d1d5c87d4bdc5ca4d0e}{ProcessaVertice}}(\mbox{\hyperlink{struct_vertice}{Vertice}}\ *\ v);}
+\DoxyCodeLine{00036\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00037\ \textcolor{preprocessor}{\#pragma\ region\ BFT}}
+\DoxyCodeLine{00041\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{_grafo_8h_abc313ae9f7772ffafe66900ea1f67a41}{BreadthFirstTraversalLA}}(\mbox{\hyperlink{struct_grafo}{Grafo}}\ *\ g,\ \textcolor{keywordtype}{int}\ vOrigin);}
+\DoxyCodeLine{00045\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{_grafo_8h_a346fdead5ba51319b7ca03736fbb60ba}{BreadthFirstSearchLA}}(\mbox{\hyperlink{struct_grafo}{Grafo}}\ *\ g,\ \textcolor{keywordtype}{int}\ vOrigin,\ \textcolor{keywordtype}{int}\ vDestino,\ \textcolor{keywordtype}{int}*\ somaCaminho,\ \textcolor{keywordtype}{int}*\ somaId);}
+\DoxyCodeLine{00049\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_grafo_8h_a48e77ca88672550872b1c00f82a69201}{LimparVisitadoVertices}}(\mbox{\hyperlink{struct_vertice}{Vertice}}\ *\ inicio);}
+\DoxyCodeLine{00050\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ }
+
+\end{DoxyCode}

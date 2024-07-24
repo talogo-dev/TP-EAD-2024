@@ -1,0 +1,263 @@
+\doxysection{TP-\/\+EDA\+\_\+27969-\/\+Marco\+Cardoso\+\_\+\+Grupo2-\/\+LIB/\+Adjacencia.h File Reference}
+\hypertarget{_adjacencia_8h}{}\label{_adjacencia_8h}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Adjacencia.h@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Adjacencia.h}}
+
+
+Ficheiro que armazena todos as assinaturas dos metodos relacionados a adjacencias.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include "{}Structs.\+h"{}}\newline
+{\ttfamily \#include "{}Vertice.\+h"{}}\newline
+{\ttfamily \#include "{}Adjacencia.\+h"{}}\newline
+{\ttfamily \#include "{}Grafo.\+h"{}}\newline
+Include dependency graph for Adjacencia.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_adjacencia_8h_a69ccb158493a81dd8a2aa49c9401e897}{Criar\+Adjacencia}} (int id, int distancia)
+\item 
+\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_adjacencia_8h_aa4f8cca1391a683e75daaeb924f14861}{Insere\+Adj}} (\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*}lista\+Adja, int id\+Destino, int distancia)
+\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_adjacencia_8h_a01aeb8e9b81ecf2f1523114dc693f937}{Insere\+Adja\+Grafo}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}g, int id\+Origem, int id\+Destino, int distancia)
+\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_adjacencia_8h_abf637ee07b6059c0bf6e2f98546e523c}{Insere\+Adjas\+Grafo}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}g, int id\+Origem, int quant\+Adja, int \texorpdfstring{$\ast$}{*}distancias)
+\item 
+void \mbox{\hyperlink{_adjacencia_8h_a8d1a8f1ca382889d955c4489abe0005c}{Destruir\+Adja}} (\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*}adjacente\+Remover)
+\item 
+\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_adjacencia_8h_a531c8b1dad9febcf52d3769ac221bcfe}{Elimimina\+Adj}} (\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*}list\+Adj, int id\+Adj)
+\item 
+\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_adjacencia_8h_acd9a773da1b59eaefe859cf66590753e}{Elimimina\+All\+Adj}} (\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*}list\+Adj)
+\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_adjacencia_8h_adb2eb4386bc8bc9d2d5a05351187e851}{Elimina\+Adj\+Grafo}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}g, int origem, int destino)
+\item 
+int \mbox{\hyperlink{_adjacencia_8h_a2aa53ee0ad9537e6865f1c596e99e66f}{Soma\+Adjacencias}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}g, int vertice)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro que armazena todos as assinaturas dos metodos relacionados a adjacencias. 
+
+\textbackslash{}email \href{mailto:a27969@alunos.ipca.pt}{\texttt{ a27969@alunos.\+ipca.\+pt}} \begin{DoxyAuthor}{Author}
+Marco Cardoso 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+24 maio 2024 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_adjacencia_8h_a69ccb158493a81dd8a2aa49c9401e897}\label{_adjacencia_8h_a69ccb158493a81dd8a2aa49c9401e897} 
+\index{Adjacencia.h@{Adjacencia.h}!CriarAdjacencia@{CriarAdjacencia}}
+\index{CriarAdjacencia@{CriarAdjacencia}!Adjacencia.h@{Adjacencia.h}}
+\doxysubsubsection{\texorpdfstring{CriarAdjacencia()}{CriarAdjacencia()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*} Criar\+Adjacencia (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{int}]{distancia }\end{DoxyParamCaption})}
+
+Cria uma aresta entre vértices.
+
+Cria uma aresta entre vértices.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identificador para ligar ao vértice de destino \\
+\hline
+{\em distancia} & Distancia da aresta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Adjacente\texorpdfstring{$\ast$}{*} -\/ Uma aresta 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 2
+\Hypertarget{_adjacencia_8h_a8d1a8f1ca382889d955c4489abe0005c}\label{_adjacencia_8h_a8d1a8f1ca382889d955c4489abe0005c} 
+\index{Adjacencia.h@{Adjacencia.h}!DestruirAdja@{DestruirAdja}}
+\index{DestruirAdja@{DestruirAdja}!Adjacencia.h@{Adjacencia.h}}
+\doxysubsubsection{\texorpdfstring{DestruirAdja()}{DestruirAdja()}}
+{\footnotesize\ttfamily void Destruir\+Adja (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*}}]{adjacente\+Remover }\end{DoxyParamCaption})}
+
+Liberta a memoria da adjacencia a remover.
+
+Liberta a memoria da adjacencia a remover.
+
+
+\begin{DoxyParams}{Parameters}
+{\em adjacente\+Remover} & Adjecencia a remover \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 3
+\Hypertarget{_adjacencia_8h_a531c8b1dad9febcf52d3769ac221bcfe}\label{_adjacencia_8h_a531c8b1dad9febcf52d3769ac221bcfe} 
+\index{Adjacencia.h@{Adjacencia.h}!ElimiminaAdj@{ElimiminaAdj}}
+\index{ElimiminaAdj@{ElimiminaAdj}!Adjacencia.h@{Adjacencia.h}}
+\doxysubsubsection{\texorpdfstring{ElimiminaAdj()}{ElimiminaAdj()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*} Elimimina\+Adj (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*}}]{list\+Adj,  }\item[{int}]{id\+Adj }\end{DoxyParamCaption})}
+
+Elimina adjacencias do vertice indicado.
+
+Elimina adjacencias do vertice indicado.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list\+Adj} & Lista de adjacencias do vertice \\
+\hline
+{\em id\+Adj} & Identificador da adjacencia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Adjacente\texorpdfstring{$\ast$}{*} -\/ Nova lista de adjacencia do vertice 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 4
+Here is the caller graph for this function\+:
+% FIG 5
+\Hypertarget{_adjacencia_8h_acd9a773da1b59eaefe859cf66590753e}\label{_adjacencia_8h_acd9a773da1b59eaefe859cf66590753e} 
+\index{Adjacencia.h@{Adjacencia.h}!ElimiminaAllAdj@{ElimiminaAllAdj}}
+\index{ElimiminaAllAdj@{ElimiminaAllAdj}!Adjacencia.h@{Adjacencia.h}}
+\doxysubsubsection{\texorpdfstring{ElimiminaAllAdj()}{ElimiminaAllAdj()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*} Elimimina\+All\+Adj (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*}}]{list\+Adj }\end{DoxyParamCaption})}
+
+Elimina todas as adjacencias da lista de adjacencias.
+
+Elimina todas as adjacencias da lista de adjacencias.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list\+Adj} & Lista de adjacencias \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Adjacente\texorpdfstring{$\ast$}{*} -\/ Lista de adjacencias 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 6
+Here is the caller graph for this function\+:
+% FIG 7
+\Hypertarget{_adjacencia_8h_adb2eb4386bc8bc9d2d5a05351187e851}\label{_adjacencia_8h_adb2eb4386bc8bc9d2d5a05351187e851} 
+\index{Adjacencia.h@{Adjacencia.h}!EliminaAdjGrafo@{EliminaAdjGrafo}}
+\index{EliminaAdjGrafo@{EliminaAdjGrafo}!Adjacencia.h@{Adjacencia.h}}
+\doxysubsubsection{\texorpdfstring{EliminaAdjGrafo()}{EliminaAdjGrafo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Elimina\+Adj\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{g,  }\item[{int}]{origem,  }\item[{int}]{destino }\end{DoxyParamCaption})}
+
+Elimina a aresta que liga o vertice "{}origem"{} ao vertice "{}destino"{}.
+
+Elimina a aresta que liga o vertice "{}origem"{} ao vertice "{}destino"{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & \doxylink{struct_grafo}{Grafo} \\
+\hline
+{\em origem} & \doxylink{struct_vertice}{Vertice} "{}origem"{} \\
+\hline
+{\em destino} & \doxylink{struct_vertice}{Vertice} "{}destino"{} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Grafo\texorpdfstring{$\ast$}{*} -\/ \doxylink{struct_grafo}{Grafo} sem a adjacencia 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 8
+\Hypertarget{_adjacencia_8h_aa4f8cca1391a683e75daaeb924f14861}\label{_adjacencia_8h_aa4f8cca1391a683e75daaeb924f14861} 
+\index{Adjacencia.h@{Adjacencia.h}!InsereAdj@{InsereAdj}}
+\index{InsereAdj@{InsereAdj}!Adjacencia.h@{Adjacencia.h}}
+\doxysubsubsection{\texorpdfstring{InsereAdj()}{InsereAdj()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*} Insere\+Adj (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*}}]{lista\+Adja,  }\item[{int}]{id\+Destino,  }\item[{int}]{distancia }\end{DoxyParamCaption})}
+
+Cria uma adjacencia e insere-\/a na lista de adjacências.
+
+Cria uma adjacencia e insere-\/a na lista de adjacências.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Adja} & Lista de adjacencias \\
+\hline
+{\em id\+Destino} & Identificador do vertice destino \\
+\hline
+{\em peso} & Valor para colocar na distancia da aresta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Adjacente\texorpdfstring{$\ast$}{*} -\/ Lista de adjacencias 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 9
+Here is the caller graph for this function\+:
+% FIG 10
+\Hypertarget{_adjacencia_8h_a01aeb8e9b81ecf2f1523114dc693f937}\label{_adjacencia_8h_a01aeb8e9b81ecf2f1523114dc693f937} 
+\index{Adjacencia.h@{Adjacencia.h}!InsereAdjaGrafo@{InsereAdjaGrafo}}
+\index{InsereAdjaGrafo@{InsereAdjaGrafo}!Adjacencia.h@{Adjacencia.h}}
+\doxysubsubsection{\texorpdfstring{InsereAdjaGrafo()}{InsereAdjaGrafo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Insere\+Adja\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{g,  }\item[{int}]{id\+Origem,  }\item[{int}]{id\+Destino,  }\item[{int}]{distancia }\end{DoxyParamCaption})}
+
+Insere uma adjacencia no grafo.
+
+Insere uma adjacencia no grafo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & \doxylink{struct_grafo}{Grafo} \\
+\hline
+{\em id\+Origem} & Identificador do vértice origem \\
+\hline
+{\em id\+Destino} & Identificador do vértice destino \\
+\hline
+{\em peso} & Peso a colocar na aresta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Grafo\texorpdfstring{$\ast$}{*} -\/ \doxylink{struct_grafo}{Grafo} com as adjacencias 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 11
+Here is the caller graph for this function\+:
+% FIG 12
+\Hypertarget{_adjacencia_8h_abf637ee07b6059c0bf6e2f98546e523c}\label{_adjacencia_8h_abf637ee07b6059c0bf6e2f98546e523c} 
+\index{Adjacencia.h@{Adjacencia.h}!InsereAdjasGrafo@{InsereAdjasGrafo}}
+\index{InsereAdjasGrafo@{InsereAdjasGrafo}!Adjacencia.h@{Adjacencia.h}}
+\doxysubsubsection{\texorpdfstring{InsereAdjasGrafo()}{InsereAdjasGrafo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Insere\+Adjas\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{g,  }\item[{int}]{quant\+Ver,  }\item[{int}]{quant\+Adja,  }\item[{int \texorpdfstring{$\ast$}{*}}]{distancias }\end{DoxyParamCaption})}
+
+Insere varias adjacencias a um vertice.
+
+Insere varias adjacencias a um vertice.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & \doxylink{struct_grafo}{Grafo} onde vai ser inserido \\
+\hline
+{\em id\+Origem} & Identificador do vertice de origem \\
+\hline
+{\em quant\+Adja} & Quantidade de vertices que estara ligado \\
+\hline
+{\em distancias} & Distancias das arestas \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Grafo\texorpdfstring{$\ast$}{*} -\/ \doxylink{struct_grafo}{Grafo} com as adjacencias 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 13
+\Hypertarget{_adjacencia_8h_a2aa53ee0ad9537e6865f1c596e99e66f}\label{_adjacencia_8h_a2aa53ee0ad9537e6865f1c596e99e66f} 
+\index{Adjacencia.h@{Adjacencia.h}!SomaAdjacencias@{SomaAdjacencias}}
+\index{SomaAdjacencias@{SomaAdjacencias}!Adjacencia.h@{Adjacencia.h}}
+\doxysubsubsection{\texorpdfstring{SomaAdjacencias()}{SomaAdjacencias()}}
+{\footnotesize\ttfamily int Soma\+Adjacencias (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{g,  }\item[{int}]{vertice }\end{DoxyParamCaption})}
+
+Soma todas as adjacencias de um vertice.
+
+Soma todas as adjacencias de um vertice.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & \doxylink{struct_grafo}{Grafo} \\
+\hline
+{\em vertice} & \doxylink{struct_vertice}{Vertice} a somar as suas adjacencias \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int -\/ Soma das adjacencias 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 14

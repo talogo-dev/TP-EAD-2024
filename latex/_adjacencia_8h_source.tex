@@ -1,0 +1,39 @@
+\doxysection{Adjacencia.\+h}
+\hypertarget{_adjacencia_8h_source}{}\label{_adjacencia_8h_source}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Adjacencia.h@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Adjacencia.h}}
+\mbox{\hyperlink{_adjacencia_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*****************************************************************/}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <stdlib.h>}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_structs_8h}{Structs.h}}"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_vertice_8h}{Vertice.h}}"{}}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_adjacencia_8h}{Adjacencia.h}}"{}}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_grafo_8h}{Grafo.h}}"{}}}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#pragma\ region\ Criação\ e\ Inserção}}
+\DoxyCodeLine{00023\ \mbox{\hyperlink{struct_adjacente}{Adjacente}}*\ \mbox{\hyperlink{_adjacencia_8h_a69ccb158493a81dd8a2aa49c9401e897}{CriarAdjacencia}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ \textcolor{keywordtype}{int}\ distancia);}
+\DoxyCodeLine{00027\ \mbox{\hyperlink{struct_adjacente}{Adjacente}}*\ \mbox{\hyperlink{_adjacencia_8h_aa4f8cca1391a683e75daaeb924f14861}{InsereAdj}}(\mbox{\hyperlink{struct_adjacente}{Adjacente}}*\ listaAdja,\ \textcolor{keywordtype}{int}\ idDestino,\ \textcolor{keywordtype}{int}\ distancia);}
+\DoxyCodeLine{00031\ \mbox{\hyperlink{struct_grafo}{Grafo}}*\ \mbox{\hyperlink{_adjacencia_8h_a01aeb8e9b81ecf2f1523114dc693f937}{InsereAdjaGrafo}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ g,\ \textcolor{keywordtype}{int}\ idOrigem,\ \textcolor{keywordtype}{int}\ idDestino,\ \textcolor{keywordtype}{int}\ distancia);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00036\ \mbox{\hyperlink{struct_grafo}{Grafo}}*\ \mbox{\hyperlink{_adjacencia_8h_abf637ee07b6059c0bf6e2f98546e523c}{InsereAdjasGrafo}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ g,\ \textcolor{keywordtype}{int}\ idOrigem,\ \textcolor{keywordtype}{int}\ quantAdja,\ \textcolor{keywordtype}{int}*\ distancias);}
+\DoxyCodeLine{00037\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00038\ \textcolor{preprocessor}{\#pragma\ region\ Remoções}}
+\DoxyCodeLine{00042\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_adjacencia_8h_a8d1a8f1ca382889d955c4489abe0005c}{DestruirAdja}}(\mbox{\hyperlink{struct_adjacente}{Adjacente}}*\ adjacenteRemover);}
+\DoxyCodeLine{00046\ \mbox{\hyperlink{struct_adjacente}{Adjacente}}*\ \mbox{\hyperlink{_adjacencia_8h_a531c8b1dad9febcf52d3769ac221bcfe}{ElimiminaAdj}}(\mbox{\hyperlink{struct_adjacente}{Adjacente}}*\ listAdj,\ \textcolor{keywordtype}{int}\ idAdj);}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00051\ \mbox{\hyperlink{struct_adjacente}{Adjacente}}*\ \mbox{\hyperlink{_adjacencia_8h_acd9a773da1b59eaefe859cf66590753e}{ElimiminaAllAdj}}(\mbox{\hyperlink{struct_adjacente}{Adjacente}}*\ listAdj);}
+\DoxyCodeLine{00055\ \mbox{\hyperlink{struct_grafo}{Grafo}}*\ \mbox{\hyperlink{_adjacencia_8h_adb2eb4386bc8bc9d2d5a05351187e851}{EliminaAdjGrafo}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ g,\ \textcolor{keywordtype}{int}\ origem,\ \textcolor{keywordtype}{int}\ destino);}
+\DoxyCodeLine{00056\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#pragma\ region\ Metodos\ Extra}}
+\DoxyCodeLine{00061\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_adjacencia_8h_a2aa53ee0ad9537e6865f1c596e99e66f}{SomaAdjacencias}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ g,\ \textcolor{keywordtype}{int}\ vertice);}
+\DoxyCodeLine{00062\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00067\ }
+
+\end{DoxyCode}

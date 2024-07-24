@@ -1,0 +1,199 @@
+\doxysection{TP-\/\+EDA\+\_\+27969-\/\+Marco\+Cardoso\+\_\+\+Grupo2-\/\+LIB/\+Ficheiro.c File Reference}
+\hypertarget{_ficheiro_8c}{}\label{_ficheiro_8c}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Ficheiro.c@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Ficheiro.c}}
+
+
+Ficheiro que guarda os métodos sobre manipulacao de ficheiros.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include "{}Structs.\+h"{}}\newline
+{\ttfamily \#include "{}Ficheiro.\+h"{}}\newline
+{\ttfamily \#include "{}Vertice.\+h"{}}\newline
+{\ttfamily \#include "{}Adjacencia.\+h"{}}\newline
+Include dependency graph for Ficheiro.\+c\+:
+% FIG 0
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_ficheiro_8c_a67016c7a6f573ed5b72b195a54e72835}{Importar\+Valores\+Ficheiro}} (int quant, char nome\+Ficheiro\mbox{[}$\,$\mbox{]})
+\item 
+int \mbox{\hyperlink{_ficheiro_8c_a27e04ddf45ccdb14d2d15962fed05ba7}{Contar\+Linhas}} (char nome\+Ficheiro\mbox{[}$\,$\mbox{]}, int \texorpdfstring{$\ast$}{*}erro)
+\item 
+int \mbox{\hyperlink{_ficheiro_8c_a870083c2516f0c744c57c56ea1ead29c}{Contar\+Colunas}} (char nome\+Ficheiro\mbox{[}$\,$\mbox{]}, int \texorpdfstring{$\ast$}{*}erro)
+\item 
+void \mbox{\hyperlink{_ficheiro_8c_a4850b2e2355cfc62ced3a2fe38e67337}{Mostrar\+Valores}} (int \texorpdfstring{$\ast$}{*}valores, int quant\+Valores)
+\item 
+int \mbox{\hyperlink{_ficheiro_8c_a9a0de49ccce6b9925a04b31d1720a585}{Guardar\+Adjacencias\+Binario}} (\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*}lista\+Adja, char nome\+Ficheiro, int id\+Vertice\+Origem)
+\item 
+int \mbox{\hyperlink{_ficheiro_8c_a2c51213a32979c0a6c4d974cbcd20d98}{Guardar\+Grafo\+Binario}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Ver, char \texorpdfstring{$\ast$}{*}nome\+Ficheiro)
+\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_ficheiro_8c_a1df2897f85a880ee80e8753cbd1df553}{Carregar\+Vertices\+Binario}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Ver, char \texorpdfstring{$\ast$}{*}nome\+Ficheiro)
+\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_ficheiro_8c_a3a2c7ce2b3887802e0c48b448a27ed88}{Carregar\+Adjacencias\+Binario}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}gr, \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}g)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro que guarda os métodos sobre manipulacao de ficheiros. 
+
+\textbackslash{}email \href{mailto:a27969@alunos.ipca.pt}{\texttt{ a27969@alunos.\+ipca.\+pt}} \begin{DoxyAuthor}{Author}
+Marco Cardoso 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+24 maio 2024 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_ficheiro_8c_a3a2c7ce2b3887802e0c48b448a27ed88}\label{_ficheiro_8c_a3a2c7ce2b3887802e0c48b448a27ed88} 
+\index{Ficheiro.c@{Ficheiro.c}!CarregarAdjacenciasBinario@{CarregarAdjacenciasBinario}}
+\index{CarregarAdjacenciasBinario@{CarregarAdjacenciasBinario}!Ficheiro.c@{Ficheiro.c}}
+\doxysubsubsection{\texorpdfstring{CarregarAdjacenciasBinario()}{CarregarAdjacenciasBinario()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Carregar\+Adjacencias\+Binario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{gr,  }\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{g }\end{DoxyParamCaption})}
+
+Carrega as adjacencias de um ficheiro binario.
+
+
+\begin{DoxyParams}{Parameters}
+{\em gr} & \doxylink{struct_grafo}{Grafo} a onde inserir as adjacencias \\
+\hline
+{\em g} & Lista de vertices ??? \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vertice\texorpdfstring{$\ast$}{*} -\/ Retorna a lista dos vertices com as adjacencias 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 1
+\Hypertarget{_ficheiro_8c_a1df2897f85a880ee80e8753cbd1df553}\label{_ficheiro_8c_a1df2897f85a880ee80e8753cbd1df553} 
+\index{Ficheiro.c@{Ficheiro.c}!CarregarVerticesBinario@{CarregarVerticesBinario}}
+\index{CarregarVerticesBinario@{CarregarVerticesBinario}!Ficheiro.c@{Ficheiro.c}}
+\doxysubsubsection{\texorpdfstring{CarregarVerticesBinario()}{CarregarVerticesBinario()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Carregar\+Vertices\+Binario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Ver,  }\item[{char \texorpdfstring{$\ast$}{*}}]{nome\+Ficheiro }\end{DoxyParamCaption})}
+
+Carrega os vertices de um ficheiro binario.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Ver} & Lista dos vertices \\
+\hline
+{\em nome\+Ficheiro} & Nome do ficheiro binario a ler \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vertice\texorpdfstring{$\ast$}{*} -\/ Lista dos vertices carregados 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 2
+\Hypertarget{_ficheiro_8c_a870083c2516f0c744c57c56ea1ead29c}\label{_ficheiro_8c_a870083c2516f0c744c57c56ea1ead29c} 
+\index{Ficheiro.c@{Ficheiro.c}!ContarColunas@{ContarColunas}}
+\index{ContarColunas@{ContarColunas}!Ficheiro.c@{Ficheiro.c}}
+\doxysubsubsection{\texorpdfstring{ContarColunas()}{ContarColunas()}}
+{\footnotesize\ttfamily int Contar\+Colunas (\begin{DoxyParamCaption}\item[{char}]{nome\+Ficheiro\mbox{[}$\,$\mbox{]},  }\item[{int \texorpdfstring{$\ast$}{*}}]{erro }\end{DoxyParamCaption})}
+
+Conta as colunas de um ficheiro.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro a ler \\
+\hline
+{\em erro} & Controlo de erros \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int -\/ Quantidade de colunas 
+\end{DoxyReturn}
+\Hypertarget{_ficheiro_8c_a27e04ddf45ccdb14d2d15962fed05ba7}\label{_ficheiro_8c_a27e04ddf45ccdb14d2d15962fed05ba7} 
+\index{Ficheiro.c@{Ficheiro.c}!ContarLinhas@{ContarLinhas}}
+\index{ContarLinhas@{ContarLinhas}!Ficheiro.c@{Ficheiro.c}}
+\doxysubsubsection{\texorpdfstring{ContarLinhas()}{ContarLinhas()}}
+{\footnotesize\ttfamily int Contar\+Linhas (\begin{DoxyParamCaption}\item[{char}]{nome\+Ficheiro\mbox{[}$\,$\mbox{]},  }\item[{int \texorpdfstring{$\ast$}{*}}]{erro }\end{DoxyParamCaption})}
+
+Conta as linhas de um ficheiro.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro a ler \\
+\hline
+{\em erro} & Controlo de erros \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int -\/ Quantidade de linhas 
+\end{DoxyReturn}
+\Hypertarget{_ficheiro_8c_a9a0de49ccce6b9925a04b31d1720a585}\label{_ficheiro_8c_a9a0de49ccce6b9925a04b31d1720a585} 
+\index{Ficheiro.c@{Ficheiro.c}!GuardarAdjacenciasBinario@{GuardarAdjacenciasBinario}}
+\index{GuardarAdjacenciasBinario@{GuardarAdjacenciasBinario}!Ficheiro.c@{Ficheiro.c}}
+\doxysubsubsection{\texorpdfstring{GuardarAdjacenciasBinario()}{GuardarAdjacenciasBinario()}}
+{\footnotesize\ttfamily int Guardar\+Adjacencias\+Binario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_adjacente}{Adjacente}} \texorpdfstring{$\ast$}{*}}]{lista\+Adja,  }\item[{char}]{nome\+Ficheiro,  }\item[{int}]{id\+Vertice\+Origem }\end{DoxyParamCaption})}
+
+Guarda as adjacencias num ficheiro binario.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Adja} & Lista de adjacencias \\
+\hline
+{\em nome\+Ficheiro} & Nome do ficheiro \\
+\hline
+{\em id\+Vertice\+Origem} & Identificador do vertice a colocar as adjacencias \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int -\/ Retorna se resultou ou nao 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 3
+\Hypertarget{_ficheiro_8c_a2c51213a32979c0a6c4d974cbcd20d98}\label{_ficheiro_8c_a2c51213a32979c0a6c4d974cbcd20d98} 
+\index{Ficheiro.c@{Ficheiro.c}!GuardarGrafoBinario@{GuardarGrafoBinario}}
+\index{GuardarGrafoBinario@{GuardarGrafoBinario}!Ficheiro.c@{Ficheiro.c}}
+\doxysubsubsection{\texorpdfstring{GuardarGrafoBinario()}{GuardarGrafoBinario()}}
+{\footnotesize\ttfamily int Guardar\+Grafo\+Binario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Ver,  }\item[{char \texorpdfstring{$\ast$}{*}}]{nome\+Ficheiro }\end{DoxyParamCaption})}
+
+Guarda o grafo em ficheiro binario.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Ver} & Lista de vertices \\
+\hline
+{\em nome\+Ficheiro} & Nome do ficheiro a escrever \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int -\/ Retorna se resultou ou nao 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 4
+\Hypertarget{_ficheiro_8c_a67016c7a6f573ed5b72b195a54e72835}\label{_ficheiro_8c_a67016c7a6f573ed5b72b195a54e72835} 
+\index{Ficheiro.c@{Ficheiro.c}!ImportarValoresFicheiro@{ImportarValoresFicheiro}}
+\index{ImportarValoresFicheiro@{ImportarValoresFicheiro}!Ficheiro.c@{Ficheiro.c}}
+\doxysubsubsection{\texorpdfstring{ImportarValoresFicheiro()}{ImportarValoresFicheiro()}}
+{\footnotesize\ttfamily int \texorpdfstring{$\ast$}{*} Importar\+Valores\+Ficheiro (\begin{DoxyParamCaption}\item[{int}]{quant,  }\item[{char}]{nome\+Ficheiro\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Importa os valores de um ficheiro para um array dinâmico de inteiros.
+
+
+\begin{DoxyParams}{Parameters}
+{\em quant} & Quantidade de valores a ler \\
+\hline
+{\em nome\+Ficheiro} & Nome do ficheiro a ler \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int\texorpdfstring{$\ast$}{*} -\/ Array dinâmico com o valores 
+\end{DoxyReturn}
+\Hypertarget{_ficheiro_8c_a4850b2e2355cfc62ced3a2fe38e67337}\label{_ficheiro_8c_a4850b2e2355cfc62ced3a2fe38e67337} 
+\index{Ficheiro.c@{Ficheiro.c}!MostrarValores@{MostrarValores}}
+\index{MostrarValores@{MostrarValores}!Ficheiro.c@{Ficheiro.c}}
+\doxysubsubsection{\texorpdfstring{MostrarValores()}{MostrarValores()}}
+{\footnotesize\ttfamily void Mostrar\+Valores (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}}]{valores,  }\item[{int}]{quant\+Valores }\end{DoxyParamCaption})}
+
+Mostra os valores armazenados de um ficheiro.
+
+
+\begin{DoxyParams}{Parameters}
+{\em valores} & Array dinâmico com os valores \\
+\hline
+{\em quant\+Valores} & Quantidade de valores que tem no array \\
+\hline
+\end{DoxyParams}

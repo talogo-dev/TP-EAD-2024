@@ -1,0 +1,379 @@
+\doxysection{TP-\/\+EDA\+\_\+27969-\/\+Marco\+Cardoso\+\_\+\+Grupo1-\/\+LIB/\+Metodos.h File Reference}
+\hypertarget{_metodos_8h}{}\label{_metodos_8h}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo1-\/LIB/Metodos.h@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo1-\/LIB/Metodos.h}}
+
+
+Ficheiro cabecalho que guarda as assinaturas dos metodos todos.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include "{}Structs.\+h"{}}\newline
+Include dependency graph for Metodos.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_metodos_8h_a8fb0ff6a3df25ec0489a1aa3a0e3514b}{Criar\+Matriz}} (int valor)
+\item 
+\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_metodos_8h_a6624fccfe2c6324435871c5b0e6a61e0}{Inserir\+Matriz\+Fim}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}inicio, \mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}novo\+Valor)
+\item 
+\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_metodos_8h_a899eb1586193d7b09087753e8c842dae}{Criar\+Lista\+Ligada}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}inicio, int \texorpdfstring{$\ast$}{*}valores\+Todos, int quant\+Valores)
+\item 
+\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_metodos_8h_a2f57789b9df728034a4160e11af05cf8}{Mudar\+Valor\+Matriz}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}inicio, int valor\+AMudar, int valor)
+\item 
+\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_metodos_8h_afc920c91c60f5234a80a418b3c2c1e0e}{Mudar\+Valor\+Matriz\+Linha\+EColuna}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}inicio, int coluna, int linha, int valor)
+\item 
+\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_metodos_8h_ac4467aa042ed295258d4b365f2ea6143}{Inserir\+Linha\+Matriz}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}inicio, int \texorpdfstring{$\ast$}{*}valores\+Adicionar, int quant\+Colunas, int \texorpdfstring{$\ast$}{*}quant\+Linhas)
+\item 
+\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_metodos_8h_a67e74b4bec196323f7b68b402a9218db}{Inserir\+Coluna\+Matriz}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}inicio, int \texorpdfstring{$\ast$}{*}valores\+Coluna, int quant\+Linhas, int \texorpdfstring{$\ast$}{*}quant\+Colunas, int nr\+Coluna)
+\item 
+\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_metodos_8h_a3ef09cff0d63e99a7c97cbbb79e17b86}{Remover\+Linha\+Matriz}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}inicio, int quant\+Colunas, int \texorpdfstring{$\ast$}{*}quant\+Linhas)
+\item 
+\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_metodos_8h_a5f8b8d3a058a319984ff0f7445ef5a7c}{Remover\+Coluna\+Matriz}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}inicio, int \texorpdfstring{$\ast$}{*}valores\+Coluna, int quant\+Linhas, int \texorpdfstring{$\ast$}{*}quant\+Colunas, int nr\+Coluna)
+\item 
+int \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_metodos_8h_a67016c7a6f573ed5b72b195a54e72835}{Importar\+Valores\+Ficheiro}} (int quant, char nome\+Ficheiro\mbox{[}$\,$\mbox{]})
+\item 
+int \mbox{\hyperlink{_metodos_8h_ab9da7c6369554eb73ce4d7182df930c1}{Contar\+Linhas}} (char nome\+Ficheiro\mbox{[}$\,$\mbox{]})
+\item 
+int \mbox{\hyperlink{_metodos_8h_a4274005f9b7b11823e291fd7361b6367}{Contar\+Colunas}} (char nome\+Ficheiro\mbox{[}$\,$\mbox{]})
+\item 
+void \mbox{\hyperlink{_metodos_8h_a22a9ca369238b6e2f87656031b39c781}{Mostrar\+Matriz}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}nr)
+\item 
+void \mbox{\hyperlink{_metodos_8h_afd6f4664d0ebedc5fdb991ae9e510577}{Mostrar\+Matrizes}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}inicio)
+\item 
+void \mbox{\hyperlink{_metodos_8h_aabf072d4f8f828661a467bd61341af7b}{Mostrar\+Matriz\+Tabulada}} (\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}inicio, int linhas, int colunas)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro cabecalho que guarda as assinaturas dos metodos todos. 
+
+\textbackslash{}email \href{mailto:a27969@alunos.ipca.pt}{\texttt{ a27969@alunos.\+ipca.\+pt}} \begin{DoxyAuthor}{Author}
+Marco Cardoso 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+24 maio 2024 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_metodos_8h_a4274005f9b7b11823e291fd7361b6367}\label{_metodos_8h_a4274005f9b7b11823e291fd7361b6367} 
+\index{Metodos.h@{Metodos.h}!ContarColunas@{ContarColunas}}
+\index{ContarColunas@{ContarColunas}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{ContarColunas()}{ContarColunas()}}
+{\footnotesize\ttfamily int Contar\+Colunas (\begin{DoxyParamCaption}\item[{char}]{nome\+Ficheiro\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Conta quantas colunas tem num ficheiro .csv .
+
+Conta quantas colunas tem num ficheiro .csv .
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro a ler \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Quantidade de colunas 
+\end{DoxyReturn}
+\Hypertarget{_metodos_8h_ab9da7c6369554eb73ce4d7182df930c1}\label{_metodos_8h_ab9da7c6369554eb73ce4d7182df930c1} 
+\index{Metodos.h@{Metodos.h}!ContarLinhas@{ContarLinhas}}
+\index{ContarLinhas@{ContarLinhas}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{ContarLinhas()}{ContarLinhas()}}
+{\footnotesize\ttfamily int Contar\+Linhas (\begin{DoxyParamCaption}\item[{char}]{nome\+Ficheiro\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Conta quantas linhas tem num ficheiro .csv .
+
+Conta quantas linhas tem num ficheiro .csv .
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro a ler \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Quantidade de linhas 
+\end{DoxyReturn}
+\Hypertarget{_metodos_8h_a899eb1586193d7b09087753e8c842dae}\label{_metodos_8h_a899eb1586193d7b09087753e8c842dae} 
+\index{Metodos.h@{Metodos.h}!CriarListaLigada@{CriarListaLigada}}
+\index{CriarListaLigada@{CriarListaLigada}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{CriarListaLigada()}{CriarListaLigada()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} Criar\+Lista\+Ligada (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{int \texorpdfstring{$\ast$}{*}}]{valores\+Todos,  }\item[{int}]{quant\+Valores }\end{DoxyParamCaption})}
+
+Insere varias \textquotesingle{}celulas\textquotesingle{} a lista ligada, no final dela.
+
+Insere varias \textquotesingle{}celulas\textquotesingle{} a lista ligada, no final dela.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O primeiro endereco da lista ligada \\
+\hline
+{\em valores\+Todos} & Array dinamico de inteiros \\
+\hline
+{\em quant\+Valores} & Quantidade de valores \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista ligada com todas as \textquotesingle{}celulas\textquotesingle{} 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 2
+\Hypertarget{_metodos_8h_a8fb0ff6a3df25ec0489a1aa3a0e3514b}\label{_metodos_8h_a8fb0ff6a3df25ec0489a1aa3a0e3514b} 
+\index{Metodos.h@{Metodos.h}!CriarMatriz@{CriarMatriz}}
+\index{CriarMatriz@{CriarMatriz}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{CriarMatriz()}{CriarMatriz()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} Criar\+Matriz (\begin{DoxyParamCaption}\item[{int}]{valor }\end{DoxyParamCaption})}
+
+Aloca memoria para guardar uma estrutra do tipo \textquotesingle{}Matriz\texorpdfstring{$\ast$}{*}\textquotesingle{}.
+
+Aloca memoria para guardar uma estrutra do tipo \textquotesingle{}Matriz\texorpdfstring{$\ast$}{*}\textquotesingle{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & Valor a guardar dentro da estrutura \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\textquotesingle{}Celula\textquotesingle{} que depois pode ser anexada a uma lista ligada 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 3
+\Hypertarget{_metodos_8h_a67016c7a6f573ed5b72b195a54e72835}\label{_metodos_8h_a67016c7a6f573ed5b72b195a54e72835} 
+\index{Metodos.h@{Metodos.h}!ImportarValoresFicheiro@{ImportarValoresFicheiro}}
+\index{ImportarValoresFicheiro@{ImportarValoresFicheiro}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{ImportarValoresFicheiro()}{ImportarValoresFicheiro()}}
+{\footnotesize\ttfamily int \texorpdfstring{$\ast$}{*} Importar\+Valores\+Ficheiro (\begin{DoxyParamCaption}\item[{int}]{quant,  }\item[{char}]{nome\+Ficheiro\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Guarda os valores de um ficheiro para um array dinamico de inteiros.
+
+Guarda os valores de um ficheiro para um array dinamico de inteiros.
+
+
+\begin{DoxyParams}{Parameters}
+{\em quant} & Quantidade de valores dentro do ficheiro \\
+\hline
+{\em nome\+Ficheiro} & Nome do ficheiro a ler \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int\texorpdfstring{$\ast$}{*} -\/ Array dinamico de inteiros 
+\end{DoxyReturn}
+\Hypertarget{_metodos_8h_a67e74b4bec196323f7b68b402a9218db}\label{_metodos_8h_a67e74b4bec196323f7b68b402a9218db} 
+\index{Metodos.h@{Metodos.h}!InserirColunaMatriz@{InserirColunaMatriz}}
+\index{InserirColunaMatriz@{InserirColunaMatriz}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{InserirColunaMatriz()}{InserirColunaMatriz()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} Inserir\+Coluna\+Matriz (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{int \texorpdfstring{$\ast$}{*}}]{valores\+Coluna,  }\item[{int}]{quant\+Linhas,  }\item[{int \texorpdfstring{$\ast$}{*}}]{quant\+Colunas,  }\item[{int}]{nr\+Coluna }\end{DoxyParamCaption})}
+
+Insere uma coluna na matriz.
+
+Insere uma coluna na matriz.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O primeiro endereco da lista ligada \\
+\hline
+{\em valores\+Coluna} & Valores para adicionar na coluna \\
+\hline
+{\em quant\+Linhas} & Quantidade de linhas que a matriz tem \\
+\hline
+{\em quant\+Colunas} & Quantidade de colunas que a matriz tem \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Inicio da lista ligada 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 4
+\Hypertarget{_metodos_8h_ac4467aa042ed295258d4b365f2ea6143}\label{_metodos_8h_ac4467aa042ed295258d4b365f2ea6143} 
+\index{Metodos.h@{Metodos.h}!InserirLinhaMatriz@{InserirLinhaMatriz}}
+\index{InserirLinhaMatriz@{InserirLinhaMatriz}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{InserirLinhaMatriz()}{InserirLinhaMatriz()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} Inserir\+Linha\+Matriz (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{int \texorpdfstring{$\ast$}{*}}]{valores\+Adicionar,  }\item[{int}]{quant\+Colunas,  }\item[{int \texorpdfstring{$\ast$}{*}}]{quant\+Linhas }\end{DoxyParamCaption})}
+
+Insere uma linha na matriz.
+
+Insere uma linha na matriz.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O primeiro endereco da lista ligada \\
+\hline
+{\em valores\+Adicionar} & Valores a adicionar a linha \\
+\hline
+{\em quant\+Colunas} & Quantidade de colunas que a matriz tem \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Inicio da lista ligada 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 5
+\Hypertarget{_metodos_8h_a6624fccfe2c6324435871c5b0e6a61e0}\label{_metodos_8h_a6624fccfe2c6324435871c5b0e6a61e0} 
+\index{Metodos.h@{Metodos.h}!InserirMatrizFim@{InserirMatrizFim}}
+\index{InserirMatrizFim@{InserirMatrizFim}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{InserirMatrizFim()}{InserirMatrizFim()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} Inserir\+Matriz\+Fim (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{novo\+Valor }\end{DoxyParamCaption})}
+
+Insere uma \textquotesingle{}celula\textquotesingle{} no fim de uma lista ligada.
+
+Insere uma \textquotesingle{}celula\textquotesingle{} no fim de uma lista ligada.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O primeiro endereco da lista ligada \\
+\hline
+{\em novo\+Valor} & \textquotesingle{}Celula\textquotesingle{} a guardar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista ligada com a \textquotesingle{}celula\textquotesingle{} no fim dela 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 6
+\Hypertarget{_metodos_8h_a22a9ca369238b6e2f87656031b39c781}\label{_metodos_8h_a22a9ca369238b6e2f87656031b39c781} 
+\index{Metodos.h@{Metodos.h}!MostrarMatriz@{MostrarMatriz}}
+\index{MostrarMatriz@{MostrarMatriz}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{MostrarMatriz()}{MostrarMatriz()}}
+{\footnotesize\ttfamily void Mostrar\+Matriz (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{nr }\end{DoxyParamCaption})}
+
+Mostra apenas uma \textquotesingle{}celula\textquotesingle{} de uma lista ligada.
+
+Mostra apenas uma \textquotesingle{}celula\textquotesingle{} de uma lista ligada.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nr} & Uma \textquotesingle{}celula\textquotesingle{} da lista ligada \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 7
+\Hypertarget{_metodos_8h_afd6f4664d0ebedc5fdb991ae9e510577}\label{_metodos_8h_afd6f4664d0ebedc5fdb991ae9e510577} 
+\index{Metodos.h@{Metodos.h}!MostrarMatrizes@{MostrarMatrizes}}
+\index{MostrarMatrizes@{MostrarMatrizes}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{MostrarMatrizes()}{MostrarMatrizes()}}
+{\footnotesize\ttfamily void Mostrar\+Matrizes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{inicio }\end{DoxyParamCaption})}
+
+Mostra toda uma lista ligada.
+
+Mostra toda uma lista ligada.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O primeiro endereco da lista ligada \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 8
+\Hypertarget{_metodos_8h_aabf072d4f8f828661a467bd61341af7b}\label{_metodos_8h_aabf072d4f8f828661a467bd61341af7b} 
+\index{Metodos.h@{Metodos.h}!MostrarMatrizTabulada@{MostrarMatrizTabulada}}
+\index{MostrarMatrizTabulada@{MostrarMatrizTabulada}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{MostrarMatrizTabulada()}{MostrarMatrizTabulada()}}
+{\footnotesize\ttfamily void Mostrar\+Matriz\+Tabulada (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{int}]{quant\+Linhas,  }\item[{int}]{quant\+Colunas }\end{DoxyParamCaption})}
+
+Mostra a lista com linhas e colunas.
+
+Mostra a lista com linhas e colunas.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O primeiro endereco da lista ligada \\
+\hline
+{\em linhas} & Quantidade de linhas \\
+\hline
+{\em colunas} & Quantidade de colunas \\
+\hline
+\end{DoxyParams}
+\Hypertarget{_metodos_8h_a2f57789b9df728034a4160e11af05cf8}\label{_metodos_8h_a2f57789b9df728034a4160e11af05cf8} 
+\index{Metodos.h@{Metodos.h}!MudarValorMatriz@{MudarValorMatriz}}
+\index{MudarValorMatriz@{MudarValorMatriz}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{MudarValorMatriz()}{MudarValorMatriz()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} Mudar\+Valor\+Matriz (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{int}]{valor\+AMudar,  }\item[{int}]{valor }\end{DoxyParamCaption})}
+
+Muda um valor a escolha do utilizador por outro valor a escolha do utilizador na matriz.
+
+Muda um valor a escolha do utilizador por outro valor a escolha do utilizador na matriz.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O primeiro endereco da lista ligada \\
+\hline
+{\em quant\+Valores} & Quantidade de valores \\
+\hline
+{\em valor\+AMudar} & Valor a mudar \\
+\hline
+{\em valor} & Valor no qual o "{}\+Valor a mudar"{} vai ficar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista ligada com os valores mudados 
+\end{DoxyReturn}
+\Hypertarget{_metodos_8h_afc920c91c60f5234a80a418b3c2c1e0e}\label{_metodos_8h_afc920c91c60f5234a80a418b3c2c1e0e} 
+\index{Metodos.h@{Metodos.h}!MudarValorMatrizLinhaEColuna@{MudarValorMatrizLinhaEColuna}}
+\index{MudarValorMatrizLinhaEColuna@{MudarValorMatrizLinhaEColuna}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{MudarValorMatrizLinhaEColuna()}{MudarValorMatrizLinhaEColuna()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} Mudar\+Valor\+Matriz\+Linha\+EColuna (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{int}]{coluna,  }\item[{int}]{linha,  }\item[{int}]{valor }\end{DoxyParamCaption})}
+
+Muda um valor numa coluna e numa linha especificada pelo utilizador na matriz.
+
+Mudar o valor de uma matriz dada a sua linha e coluna.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O primeiro endereco da lista ligada \\
+\hline
+{\em coluna} & Coluna do valor a mudar \\
+\hline
+{\em linha} & Linha do valor a mudar \\
+\hline
+{\em valor} & Valor substituto \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista ligada com o valor mudado 
+\end{DoxyReturn}
+\Hypertarget{_metodos_8h_a5f8b8d3a058a319984ff0f7445ef5a7c}\label{_metodos_8h_a5f8b8d3a058a319984ff0f7445ef5a7c} 
+\index{Metodos.h@{Metodos.h}!RemoverColunaMatriz@{RemoverColunaMatriz}}
+\index{RemoverColunaMatriz@{RemoverColunaMatriz}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{RemoverColunaMatriz()}{RemoverColunaMatriz()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} Remover\+Coluna\+Matriz (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{int \texorpdfstring{$\ast$}{*}}]{valores\+Coluna,  }\item[{int}]{quant\+Linhas,  }\item[{int \texorpdfstring{$\ast$}{*}}]{quant\+Colunas,  }\item[{int}]{nr\+Coluna }\end{DoxyParamCaption})}
+
+Remove uma coluna na matriz.
+
+Remove uma coluna na matriz.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O primeiro endereco da lista ligada \\
+\hline
+{\em quant\+Linhas} & Quantidade de linhas que a matriz tem \\
+\hline
+{\em quant\+Colunas} & Quantidade de colunas que a matriz tem \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Inicio da lista ligada 
+\end{DoxyReturn}
+\Hypertarget{_metodos_8h_a3ef09cff0d63e99a7c97cbbb79e17b86}\label{_metodos_8h_a3ef09cff0d63e99a7c97cbbb79e17b86} 
+\index{Metodos.h@{Metodos.h}!RemoverLinhaMatriz@{RemoverLinhaMatriz}}
+\index{RemoverLinhaMatriz@{RemoverLinhaMatriz}!Metodos.h@{Metodos.h}}
+\doxysubsubsection{\texorpdfstring{RemoverLinhaMatriz()}{RemoverLinhaMatriz()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*} Remover\+Linha\+Matriz (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_matriz}{Matriz}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{int}]{quant\+Colunas,  }\item[{int \texorpdfstring{$\ast$}{*}}]{quant\+Linhas }\end{DoxyParamCaption})}
+
+Remove uma linha na matriz.
+
+Remove uma linha na matriz.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O primeiro endereco da lista ligada \\
+\hline
+{\em quant\+Colunas} & Quantidade de colunas que a matriz tem \\
+\hline
+{\em quant\+Linhas} & Quantidade de linhas que a matriz tem \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Inicio da lista ligada 
+\end{DoxyReturn}

@@ -1,0 +1,97 @@
+\doxysection{TP-\/\+EDA\+\_\+27969-\/\+Marco\+Cardoso\+\_\+\+Grupo2-\/\+LIB/\+Fila.c File Reference}
+\hypertarget{_fila_8c}{}\label{_fila_8c}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Fila.c@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Fila.c}}
+
+
+Ficheiro que guarda os métodos relativos a filas.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include "{}Fila.\+h"{}}\newline
+Include dependency graph for Fila.\+c\+:
+% FIG 0
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{_fila_8c_a6bbb32f32f4a09a8f694c38d7fbba0f0}{insert\+Queue}} (int queue\mbox{[}$\,$\mbox{]}, int \texorpdfstring{$\ast$}{*}rear, int data)
+\item 
+int \mbox{\hyperlink{_fila_8c_abc2d4eea6baea7c3cc89ace87090a8b6}{remove\+Queue}} (int queue\mbox{[}$\,$\mbox{]}, int \texorpdfstring{$\ast$}{*}front)
+\item 
+bool \mbox{\hyperlink{_fila_8c_a88facf547400b4e545f479b6406887f5}{is\+Queue\+Empty}} (int rear, int front)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro que guarda os métodos relativos a filas. 
+
+\textbackslash{}email \href{mailto:a27969@alunos.ipca.pt}{\texttt{ a27969@alunos.\+ipca.\+pt}} \begin{DoxyAuthor}{Author}
+Marco Cardoso 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+24 maio 2024 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_fila_8c_a6bbb32f32f4a09a8f694c38d7fbba0f0}\label{_fila_8c_a6bbb32f32f4a09a8f694c38d7fbba0f0} 
+\index{Fila.c@{Fila.c}!insertQueue@{insertQueue}}
+\index{insertQueue@{insertQueue}!Fila.c@{Fila.c}}
+\doxysubsubsection{\texorpdfstring{insertQueue()}{insertQueue()}}
+{\footnotesize\ttfamily bool insert\+Queue (\begin{DoxyParamCaption}\item[{int}]{queue\mbox{[}$\,$\mbox{]},  }\item[{int \texorpdfstring{$\ast$}{*}}]{rear,  }\item[{int}]{data }\end{DoxyParamCaption})}
+
+Insere o valor na fila.
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & Fila \\
+\hline
+{\em rear} & Ultimo valor \\
+\hline
+{\em data} & Valor a colocar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean -\/ Verifica se guardou os dados na lista 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 1
+\Hypertarget{_fila_8c_a88facf547400b4e545f479b6406887f5}\label{_fila_8c_a88facf547400b4e545f479b6406887f5} 
+\index{Fila.c@{Fila.c}!isQueueEmpty@{isQueueEmpty}}
+\index{isQueueEmpty@{isQueueEmpty}!Fila.c@{Fila.c}}
+\doxysubsubsection{\texorpdfstring{isQueueEmpty()}{isQueueEmpty()}}
+{\footnotesize\ttfamily bool is\+Queue\+Empty (\begin{DoxyParamCaption}\item[{int}]{rear,  }\item[{int}]{front }\end{DoxyParamCaption})}
+
+Verifica se a fila esta vazia.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rear} & Ultimo valor \\
+\hline
+{\em front} & Primeiro valor \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean -\/ Verifica se os dois sao iguais 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 2
+\Hypertarget{_fila_8c_abc2d4eea6baea7c3cc89ace87090a8b6}\label{_fila_8c_abc2d4eea6baea7c3cc89ace87090a8b6} 
+\index{Fila.c@{Fila.c}!removeQueue@{removeQueue}}
+\index{removeQueue@{removeQueue}!Fila.c@{Fila.c}}
+\doxysubsubsection{\texorpdfstring{removeQueue()}{removeQueue()}}
+{\footnotesize\ttfamily int remove\+Queue (\begin{DoxyParamCaption}\item[{int}]{queue\mbox{[}$\,$\mbox{]},  }\item[{int \texorpdfstring{$\ast$}{*}}]{front }\end{DoxyParamCaption})}
+
+Remove o valor que esta por cima da lista.
+
+
+\begin{DoxyParams}{Parameters}
+{\em queue} & Fila \\
+\hline
+{\em front} & Primeiro valor \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int -\/ O valor da lista 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 3

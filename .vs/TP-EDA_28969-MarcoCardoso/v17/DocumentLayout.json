@@ -1,22 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\",
+  "WorkspaceRootPath": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29C03082-A6B8-42CA-925B-07D5DF684B78}|TP-EDA_28969-MarcoCardoso\\TP-EDA_28969-MarcoCardoso.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Metodos.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29C03082-A6B8-42CA-925B-07D5DF684B78}|TP-EDA_28969-MarcoCardoso\\TP-EDA_28969-MarcoCardoso.vcxproj|solutionrelative:TP-EDA_28969-MarcoCardoso\\Metodos.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29C03082-A6B8-42CA-925B-07D5DF684B78}|TP-EDA_28969-MarcoCardoso\\TP-EDA_28969-MarcoCardoso.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Metodos.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29C03082-A6B8-42CA-925B-07D5DF684B78}|TP-EDA_28969-MarcoCardoso\\TP-EDA_28969-MarcoCardoso.vcxproj|solutionrelative:TP-EDA_28969-MarcoCardoso\\Metodos.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29C03082-A6B8-42CA-925B-07D5DF684B78}|TP-EDA_28969-MarcoCardoso\\TP-EDA_28969-MarcoCardoso.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29C03082-A6B8-42CA-925B-07D5DF684B78}|TP-EDA_28969-MarcoCardoso\\TP-EDA_28969-MarcoCardoso.vcxproj|solutionrelative:TP-EDA_28969-MarcoCardoso\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29C03082-A6B8-42CA-925B-07D5DF684B78}|TP-EDA_28969-MarcoCardoso\\TP-EDA_28969-MarcoCardoso.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Structs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29C03082-A6B8-42CA-925B-07D5DF684B78}|TP-EDA_28969-MarcoCardoso\\TP-EDA_28969-MarcoCardoso.vcxproj|solutionrelative:TP-EDA_28969-MarcoCardoso\\Structs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Structs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Structs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19305F41-38B4-48C7-A7DF-31FD29C1C039}|TP-EDA_27969-MarcoCardoso_Grupo1-LIB\\TP-EDA_27969-MarcoCardoso_Grupo1-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo1-LIB\\Structs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19305F41-38B4-48C7-A7DF-31FD29C1C039}|TP-EDA_27969-MarcoCardoso_Grupo1-LIB\\TP-EDA_27969-MarcoCardoso_Grupo1-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo1-LIB\\Structs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F107A6-4CB1-4C38-90EB-98C86CA1637A}|TP-EDA_27969-MarcoCardoso_Grupo2\\TP-EDA_27969-MarcoCardoso_Grupo2.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4F107A6-4CB1-4C38-90EB-98C86CA1637A}|TP-EDA_27969-MarcoCardoso_Grupo2\\TP-EDA_27969-MarcoCardoso_Grupo2.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D7E0386-E75A-4272-AA65-FB5CF4DC9262}|TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB.vcxproj|solutionrelative:TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,60 +61,171 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 160,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 211,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main.c",
-              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Main.c",
-              "RelativeDocumentMoniker": "TP-EDA_28969-MarcoCardoso\\Main.c",
-              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Main.c",
-              "RelativeToolTip": "TP-EDA_28969-MarcoCardoso\\Main.c",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAiwDAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-03-12T18:54:33.389Z",
+              "DocumentIndex": 6,
+              "Title": "Structs.h",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo1-LIB\\Structs.h",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo1-LIB\\Structs.h",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo1-LIB\\Structs.h",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo1-LIB\\Structs.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-25T14:37:15.641Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Vertice.c",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.c",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.c",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.c",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.c",
+              "ViewState": "AQIAACQBAAAAAAAAAAAlwDYBAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-24T15:30:02.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Grafo.c",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.c",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.c",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.c",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.c",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-24T15:28:39.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Fila.c",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.c",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.c",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.c",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.c",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-24T15:25:28.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ficheiro.c",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.c",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.c",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.c",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.c",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAAABMBAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-24T15:24:57.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Adjacencia.c",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.c",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.c",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.c",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.c",
+              "ViewState": "AQIAAAEBAAAAAAAAAAAWwBABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-24T15:24:18.351Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Structs.h",
-              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Structs.h",
-              "RelativeDocumentMoniker": "TP-EDA_28969-MarcoCardoso\\Structs.h",
-              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Structs.h",
-              "RelativeToolTip": "TP-EDA_28969-MarcoCardoso\\Structs.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Vertice.h",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.h",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.h",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.h",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Vertice.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-12T20:20:33.124Z",
+              "WhenOpened": "2024-05-24T15:22:49.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Metodos.h",
-              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Metodos.h",
-              "RelativeDocumentMoniker": "TP-EDA_28969-MarcoCardoso\\Metodos.h",
-              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Metodos.h",
-              "RelativeToolTip": "TP-EDA_28969-MarcoCardoso\\Metodos.h",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAeAAAA",
+              "DocumentIndex": 4,
+              "Title": "Structs.h",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Structs.h",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Structs.h",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Structs.h",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Structs.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-12T19:20:06.394Z",
+              "WhenOpened": "2024-05-24T14:48:26.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Grafo.h",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.h",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.h",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.h",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Grafo.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-24T14:45:05.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Metodos.c",
-              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Metodos.c",
-              "RelativeDocumentMoniker": "TP-EDA_28969-MarcoCardoso\\Metodos.c",
-              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV2\\TP-EAD-2024\\TP-EDA_28969-MarcoCardoso\\Metodos.c",
-              "RelativeToolTip": "TP-EDA_28969-MarcoCardoso\\Metodos.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-03-12T19:12:25.238Z",
+              "Title": "Fila.h",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.h",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.h",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.h",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Fila.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-24T14:41:30.985Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ficheiro.h",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.h",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.h",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.h",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Ficheiro.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-24T14:39:50.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Adjacencia.h",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.h",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.h",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.h",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2-LIB\\Adjacencia.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-24T14:04:38.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2\\Main.c",
+              "RelativeDocumentMoniker": "TP-EDA_27969-MarcoCardoso_Grupo2\\Main.c",
+              "ToolTip": "C:\\Users\\talogo\\Desktop\\EAD\\TrabalhoPraticoV6V6\\TP-EDA_27969-MarcoCardoso\\TP-EDA_27969-MarcoCardoso_Grupo2\\Main.c",
+              "RelativeToolTip": "TP-EDA_27969-MarcoCardoso_Grupo2\\Main.c",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAmwG4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-24T13:45:35.249Z"
             }
           ]
         }

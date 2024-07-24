@@ -1,0 +1,36 @@
+\doxysection{Metodos.\+h}
+\hypertarget{_metodos_8h_source}{}\label{_metodos_8h_source}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo1-\/LIB/Metodos.h@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo1-\/LIB/Metodos.h}}
+\mbox{\hyperlink{_metodos_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*****************************************************************/}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <stdlib.h>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_structs_8h}{Structs.h}}"{}}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#pragma\ region\ Relacionada\ com\ Listas\ Ligadas}}
+\DoxyCodeLine{00021\ \mbox{\hyperlink{struct_matriz}{Matriz}}*\ \mbox{\hyperlink{_metodos_8h_a8fb0ff6a3df25ec0489a1aa3a0e3514b}{CriarMatriz}}(\textcolor{keywordtype}{int}\ valor);}
+\DoxyCodeLine{00025\ \mbox{\hyperlink{struct_matriz}{Matriz}}*\ \mbox{\hyperlink{_metodos_8h_a6624fccfe2c6324435871c5b0e6a61e0}{InserirMatrizFim}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ inicio,\ \mbox{\hyperlink{struct_matriz}{Matriz}}*\ novoValor);}
+\DoxyCodeLine{00029\ \mbox{\hyperlink{struct_matriz}{Matriz}}*\ \mbox{\hyperlink{_metodos_8h_a899eb1586193d7b09087753e8c842dae}{CriarListaLigada}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ inicio,\ \textcolor{keywordtype}{int}*\ valoresTodos,\ \textcolor{keywordtype}{int}\ quantValores);}
+\DoxyCodeLine{00033\ \mbox{\hyperlink{struct_matriz}{Matriz}}*\ \mbox{\hyperlink{_metodos_8h_a2f57789b9df728034a4160e11af05cf8}{MudarValorMatriz}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ inicio,\ \textcolor{keywordtype}{int}\ valorAMudar,\ \textcolor{keywordtype}{int}\ valor);}
+\DoxyCodeLine{00037\ \mbox{\hyperlink{struct_matriz}{Matriz}}*\ \mbox{\hyperlink{_metodos_8h_afc920c91c60f5234a80a418b3c2c1e0e}{MudarValorMatrizLinhaEColuna}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ inicio,\ \textcolor{keywordtype}{int}\ coluna,\ \textcolor{keywordtype}{int}\ linha,\ \textcolor{keywordtype}{int}\ valor);}
+\DoxyCodeLine{00041\ \mbox{\hyperlink{struct_matriz}{Matriz}}*\ \mbox{\hyperlink{_metodos_8h_ac4467aa042ed295258d4b365f2ea6143}{InserirLinhaMatriz}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ inicio,\ \textcolor{keywordtype}{int}*\ valoresAdicionar,\ \textcolor{keywordtype}{int}\ quantColunas,\ \textcolor{keywordtype}{int}*\ quantLinhas);}
+\DoxyCodeLine{00045\ \mbox{\hyperlink{struct_matriz}{Matriz}}*\ \mbox{\hyperlink{_metodos_8h_a67e74b4bec196323f7b68b402a9218db}{InserirColunaMatriz}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ inicio,\ \textcolor{keywordtype}{int}*\ valoresColuna,\ \textcolor{keywordtype}{int}\ quantLinhas,\ \textcolor{keywordtype}{int}*\ quantColunas,\ \textcolor{keywordtype}{int}\ nrColuna);}
+\DoxyCodeLine{00049\ \mbox{\hyperlink{struct_matriz}{Matriz}}*\ \mbox{\hyperlink{_metodos_8h_a3ef09cff0d63e99a7c97cbbb79e17b86}{RemoverLinhaMatriz}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ inicio,\ \textcolor{keywordtype}{int}\ quantColunas,\ \textcolor{keywordtype}{int}*\ quantLinhas);}
+\DoxyCodeLine{00053\ \mbox{\hyperlink{struct_matriz}{Matriz}}*\ \mbox{\hyperlink{_metodos_8h_a5f8b8d3a058a319984ff0f7445ef5a7c}{RemoverColunaMatriz}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ inicio,\ \textcolor{keywordtype}{int}*\ valoresColuna,\ \textcolor{keywordtype}{int}\ quantLinhas,\ \textcolor{keywordtype}{int}*\ quantColunas,\ \textcolor{keywordtype}{int}\ nrColuna);}
+\DoxyCodeLine{00054\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00055\ \textcolor{preprocessor}{\#pragma\ region\ Relacionado\ com\ Ficheiros}}
+\DoxyCodeLine{00059\ \textcolor{keywordtype}{int}*\ \mbox{\hyperlink{_metodos_8h_a67016c7a6f573ed5b72b195a54e72835}{ImportarValoresFicheiro}}(\textcolor{keywordtype}{int}\ quant,\ \textcolor{keywordtype}{char}\ nomeFicheiro[]);}
+\DoxyCodeLine{00063\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_metodos_8h_ab9da7c6369554eb73ce4d7182df930c1}{ContarLinhas}}(\textcolor{keywordtype}{char}\ nomeFicheiro[]);}
+\DoxyCodeLine{00067\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_metodos_8h_a4274005f9b7b11823e291fd7361b6367}{ContarColunas}}(\textcolor{keywordtype}{char}\ nomeFicheiro[]);}
+\DoxyCodeLine{00068\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00069\ \textcolor{preprocessor}{\#pragma\ region\ Mostrar\ Matrizes}}
+\DoxyCodeLine{00073\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_metodos_8h_a22a9ca369238b6e2f87656031b39c781}{MostrarMatriz}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ nr);}
+\DoxyCodeLine{00077\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_metodos_8h_afd6f4664d0ebedc5fdb991ae9e510577}{MostrarMatrizes}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ inicio);}
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00082\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_metodos_8h_aabf072d4f8f828661a467bd61341af7b}{MostrarMatrizTabulada}}(\mbox{\hyperlink{struct_matriz}{Matriz}}*\ inicio,\ \textcolor{keywordtype}{int}\ linhas,\ \textcolor{keywordtype}{int}\ colunas);}
+\DoxyCodeLine{00083\ \textcolor{preprocessor}{\#pragma\ endregion}}
+
+\end{DoxyCode}

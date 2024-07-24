@@ -1,0 +1,356 @@
+\doxysection{TP-\/\+EDA\+\_\+27969-\/\+Marco\+Cardoso\+\_\+\+Grupo2-\/\+LIB/\+Vertice.h File Reference}
+\hypertarget{_vertice_8h}{}\label{_vertice_8h}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Vertice.h@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Vertice.h}}
+
+
+Ficheiro que armazena todos as assinaturas dos metodos relacionados a vertices.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include "{}Structs.\+h"{}}\newline
+{\ttfamily \#include "{}Vertice.\+h"{}}\newline
+{\ttfamily \#include "{}Grafo.\+h"{}}\newline
+Include dependency graph for Vertice.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_vertice_8h_a730df06ef5793ff8ab98f81a14a51235}{Criar\+Vertice}} (int id, char nome)
+\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_vertice_8h_a192ce9891277e5989619c65bd7d20523}{Inserir\+Vertice\+Lista}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Ver, \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}ver\+Novo)
+\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_vertice_8h_a813b2f084fa49fbe0b698966a8b9eda7}{Criar\+Vertices\+Inserir\+Lista}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Vertices, int quant\+Vertices)
+\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_vertice_8h_a1d226cf413abbc102444fe207dba45a5}{Insere\+Vertice\+Grafo}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}g, \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Vertices, int quant\+Vertices)
+\item 
+void \mbox{\hyperlink{_vertice_8h_a4e1b7a99b006c7bfb83bf05f3c1989b9}{Destroi\+Vertice}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}vertice\+Remover)
+\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_vertice_8h_ab0e47318f0b8df0284996bdbcb1a3af9}{Elimina\+Vertice}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Ver, int id\+Vertice)
+\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_vertice_8h_afca57fe820c774993f36e97a78b3a9f4}{Elimina\+Vertice\+Grafo}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}g, int id\+Vertice)
+\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_vertice_8h_a876f9d345fc076332e36433bb4e0fd1a}{Elimina\+Adjacencia\+All\+Vertices}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Ver, int id\+Adj)
+\item 
+bool \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_vertice_8h_ab5e78e4ad676402c4b7b4da683da3674}{Has\+Vertice}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Ver, int id)
+\item 
+bool \mbox{\hyperlink{_vertice_8h_aba4bccb59a13b174aa8100096f6f2847}{Has\+Vertice\+Grafo}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}g, int id\+Vertice)
+\begin{DoxyCompactList}\small\item\em \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_vertice_8h_a5835d32d064f5ef0166e13cc57991f46}{Onde\+Esta\+Vertice}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Ver, int id)
+\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_vertice_8h_a8a243ff4d44afb7d8dd4687243c60c50}{Onde\+Esta\+Vertice\+Grafo}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}gr, int id\+Vertice)
+\item 
+void \mbox{\hyperlink{_vertice_8h_ae5aa851afa46fba4e3502199f615930e}{Mostrar\+Lista\+Vertices}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Vertices)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro que armazena todos as assinaturas dos metodos relacionados a vertices. 
+
+\textbackslash{}email \href{mailto:a27969@alunos.ipca.pt}{\texttt{ a27969@alunos.\+ipca.\+pt}} \begin{DoxyAuthor}{Author}
+Marco Cardoso 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+24 maio 2024 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_vertice_8h_a730df06ef5793ff8ab98f81a14a51235}\label{_vertice_8h_a730df06ef5793ff8ab98f81a14a51235} 
+\index{Vertice.h@{Vertice.h}!CriarVertice@{CriarVertice}}
+\index{CriarVertice@{CriarVertice}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{CriarVertice()}{CriarVertice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Criar\+Vertice (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{char}]{nome }\end{DoxyParamCaption})}
+
+Cria um vertice para ser inserido no grafo.
+
+Cria um vertice para ser inserido no grafo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id do vertice \\
+\hline
+{\em nome} & Nome para o vertice \\
+\hline
+{\em erro} & Controlo de erro \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{struct_vertice}{Vertice} 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 2
+\Hypertarget{_vertice_8h_a813b2f084fa49fbe0b698966a8b9eda7}\label{_vertice_8h_a813b2f084fa49fbe0b698966a8b9eda7} 
+\index{Vertice.h@{Vertice.h}!CriarVerticesInserirLista@{CriarVerticesInserirLista}}
+\index{CriarVerticesInserirLista@{CriarVerticesInserirLista}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{CriarVerticesInserirLista()}{CriarVerticesInserirLista()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Criar\+Vertices\+Inserir\+Lista (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Vertices,  }\item[{int}]{quant\+Vertices }\end{DoxyParamCaption})}
+
+Cria vários vértices e inseri-\/los na lista de vértices.
+
+Cria vários vértices e coloca dados no mesmo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Vertices} & Lista de Vértices \\
+\hline
+{\em quant\+Vertices} & Quantidade de vértices a inserir \\
+\hline
+{\em erro} & Controlo de erro \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vertice\texorpdfstring{$\ast$}{*} -\/ Lista de vértices 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 3
+\Hypertarget{_vertice_8h_a4e1b7a99b006c7bfb83bf05f3c1989b9}\label{_vertice_8h_a4e1b7a99b006c7bfb83bf05f3c1989b9} 
+\index{Vertice.h@{Vertice.h}!DestroiVertice@{DestroiVertice}}
+\index{DestroiVertice@{DestroiVertice}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{DestroiVertice()}{DestroiVertice()}}
+{\footnotesize\ttfamily void Destroi\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{vertice\+Remover }\end{DoxyParamCaption})}
+
+Liberta a memória do apontador para o vertice.
+
+Liberta a memória do apontador para o vertice.
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertice\+Remover} & \doxylink{struct_vertice}{Vertice} a remover \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 4
+\Hypertarget{_vertice_8h_a876f9d345fc076332e36433bb4e0fd1a}\label{_vertice_8h_a876f9d345fc076332e36433bb4e0fd1a} 
+\index{Vertice.h@{Vertice.h}!EliminaAdjacenciaAllVertices@{EliminaAdjacenciaAllVertices}}
+\index{EliminaAdjacenciaAllVertices@{EliminaAdjacenciaAllVertices}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{EliminaAdjacenciaAllVertices()}{EliminaAdjacenciaAllVertices()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Elimina\+Adjacencia\+All\+Vertices (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Ver,  }\item[{int}]{id\+Adj }\end{DoxyParamCaption})}
+
+Elimina todas as adjacencias de um vertice.
+
+Elimina todas as adjacencias de um vertice.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Ver} & Lista de vertices \\
+\hline
+{\em id\+Adj} & Identificador da adjacencia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vertice\texorpdfstring{$\ast$}{*} -\/ Lista de vertices 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 5
+Here is the caller graph for this function\+:
+% FIG 6
+\Hypertarget{_vertice_8h_ab0e47318f0b8df0284996bdbcb1a3af9}\label{_vertice_8h_ab0e47318f0b8df0284996bdbcb1a3af9} 
+\index{Vertice.h@{Vertice.h}!EliminaVertice@{EliminaVertice}}
+\index{EliminaVertice@{EliminaVertice}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{EliminaVertice()}{EliminaVertice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Elimina\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Ver,  }\item[{int}]{id\+Vertice }\end{DoxyParamCaption})}
+
+Elimina um vertice e todas as suas adjacências.
+
+Elimina um vertice e todas as suas adjacências.
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertices} & Lista de vertices \\
+\hline
+{\em cod\+Vertice} & Identificador do vertice a remover \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vertice\texorpdfstring{$\ast$}{*} -\/ Lista de vertices 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 7
+Here is the caller graph for this function\+:
+% FIG 8
+\Hypertarget{_vertice_8h_afca57fe820c774993f36e97a78b3a9f4}\label{_vertice_8h_afca57fe820c774993f36e97a78b3a9f4} 
+\index{Vertice.h@{Vertice.h}!EliminaVerticeGrafo@{EliminaVerticeGrafo}}
+\index{EliminaVerticeGrafo@{EliminaVerticeGrafo}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{EliminaVerticeGrafo()}{EliminaVerticeGrafo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Elimina\+Vertice\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{g,  }\item[{int}]{id\+Vertice }\end{DoxyParamCaption})}
+
+Elimina um vertice e as suas adjacencias de um grafo.
+
+Elimina um vertice e as suas adjacencias de um grafo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & \doxylink{struct_grafo}{Grafo} onde vai remover \\
+\hline
+{\em id\+Vertice} & Identificador do vertice a remover \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Grafo\texorpdfstring{$\ast$}{*} -\/ \doxylink{struct_grafo}{Grafo} sem o vertice e as respetivas adjacencias 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 9
+\Hypertarget{_vertice_8h_ab5e78e4ad676402c4b7b4da683da3674}\label{_vertice_8h_ab5e78e4ad676402c4b7b4da683da3674} 
+\index{Vertice.h@{Vertice.h}!HasVertice@{HasVertice}}
+\index{HasVertice@{HasVertice}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{HasVertice()}{HasVertice()}}
+{\footnotesize\ttfamily bool \texorpdfstring{$\ast$}{*} Has\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Ver,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+Verifica se um determinado vértice existe na lista de vértices.
+
+Verifica se um determinado vértice existe na lista de vértices.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Ver} & Lista de vértices \\
+\hline
+{\em id} & Identificador do vértice a procurar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool -\/ Se o vértice existe ou não 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 10
+\Hypertarget{_vertice_8h_aba4bccb59a13b174aa8100096f6f2847}\label{_vertice_8h_aba4bccb59a13b174aa8100096f6f2847} 
+\index{Vertice.h@{Vertice.h}!HasVerticeGrafo@{HasVerticeGrafo}}
+\index{HasVerticeGrafo@{HasVerticeGrafo}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{HasVerticeGrafo()}{HasVerticeGrafo()}}
+{\footnotesize\ttfamily bool Has\+Vertice\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{g,  }\item[{int}]{id\+Vertice }\end{DoxyParamCaption})}
+
+
+
+\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} 
+
+Verifica se um determinado vértice existe no grafo.
+
+Verifica se um determinado vértice existe no grafo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & \doxylink{struct_grafo}{Grafo} a verificar \\
+\hline
+{\em id\+Vertice} & Identificador do vertice \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool -\/ Se existe ou nao 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 11
+Here is the caller graph for this function\+:
+% FIG 12
+\Hypertarget{_vertice_8h_a1d226cf413abbc102444fe207dba45a5}\label{_vertice_8h_a1d226cf413abbc102444fe207dba45a5} 
+\index{Vertice.h@{Vertice.h}!InsereVerticeGrafo@{InsereVerticeGrafo}}
+\index{InsereVerticeGrafo@{InsereVerticeGrafo}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{InsereVerticeGrafo()}{InsereVerticeGrafo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Insere\+Vertice\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{g,  }\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Vertices,  }\item[{int}]{quant\+Vertices }\end{DoxyParamCaption})}
+
+Insere um vértice no grafo.
+
+Insere um vértice no grafo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & \doxylink{struct_grafo}{Grafo} a inserir \\
+\hline
+{\em lista\+Vertices} & Lista de vértices \\
+\hline
+{\em quant\+Vertices} & Quantidade de vértices \\
+\hline
+{\em erro} & Controlo de erros \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Grafo\texorpdfstring{$\ast$}{*} -\/ \doxylink{struct_grafo}{Grafo} com os vértices 
+\end{DoxyReturn}
+verificar se V já existe no grafo...Here is the call graph for this function\+:
+% FIG 13
+\Hypertarget{_vertice_8h_a192ce9891277e5989619c65bd7d20523}\label{_vertice_8h_a192ce9891277e5989619c65bd7d20523} 
+\index{Vertice.h@{Vertice.h}!InserirVerticeLista@{InserirVerticeLista}}
+\index{InserirVerticeLista@{InserirVerticeLista}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{InserirVerticeLista()}{InserirVerticeLista()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Inserir\+Vertice\+Lista (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Ver,  }\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{ver\+Novo }\end{DoxyParamCaption})}
+
+Insere um novo vértice dentro da lista de vértices.
+
+Insere um novo vértice dentro da lista de vértices.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Ver} & Lista de vértices \\
+\hline
+{\em ver\+Novo} & Vértice a adicionar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vertice\texorpdfstring{$\ast$}{*} -\/ Lista de vértices 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 14
+Here is the caller graph for this function\+:
+% FIG 15
+\Hypertarget{_vertice_8h_ae5aa851afa46fba4e3502199f615930e}\label{_vertice_8h_ae5aa851afa46fba4e3502199f615930e} 
+\index{Vertice.h@{Vertice.h}!MostrarListaVertices@{MostrarListaVertices}}
+\index{MostrarListaVertices@{MostrarListaVertices}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{MostrarListaVertices()}{MostrarListaVertices()}}
+{\footnotesize\ttfamily void Mostrar\+Lista\+Vertices (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Vertices }\end{DoxyParamCaption})}
+
+Mostra o conteúdo da lista de vértices.
+
+Mostra o conteúdo da lista de vértices.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Vertices} & Lista de vértices \\
+\hline
+\end{DoxyParams}
+\Hypertarget{_vertice_8h_a5835d32d064f5ef0166e13cc57991f46}\label{_vertice_8h_a5835d32d064f5ef0166e13cc57991f46} 
+\index{Vertice.h@{Vertice.h}!OndeEstaVertice@{OndeEstaVertice}}
+\index{OndeEstaVertice@{OndeEstaVertice}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{OndeEstaVertice()}{OndeEstaVertice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Onde\+Esta\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Ver,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+Procura onde está um vértice numa lista de vértices.
+
+Procura onde está um vértice numa lista de vértices.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Ver} & Lista de vértices \\
+\hline
+{\em id} & Identificador do vértice a procurar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vertice\texorpdfstring{$\ast$}{*} -\/ O vertice encontrado 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 16
+\Hypertarget{_vertice_8h_a8a243ff4d44afb7d8dd4687243c60c50}\label{_vertice_8h_a8a243ff4d44afb7d8dd4687243c60c50} 
+\index{Vertice.h@{Vertice.h}!OndeEstaVerticeGrafo@{OndeEstaVerticeGrafo}}
+\index{OndeEstaVerticeGrafo@{OndeEstaVerticeGrafo}!Vertice.h@{Vertice.h}}
+\doxysubsubsection{\texorpdfstring{OndeEstaVerticeGrafo()}{OndeEstaVerticeGrafo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Onde\+Esta\+Vertice\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{gr,  }\item[{int}]{id\+Vertice }\end{DoxyParamCaption})}
+
+Procura um vértice num grafo.
+
+Procura um vértice num grafo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em gr} & \doxylink{struct_grafo}{Grafo} onde procurar o vértice \\
+\hline
+{\em id\+Vertice} & Identificador do vértice a procurar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vertice\texorpdfstring{$\ast$}{*} -\/ Vértice encontrado 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 17
+Here is the caller graph for this function\+:
+% FIG 18

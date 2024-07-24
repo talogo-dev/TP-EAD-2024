@@ -1,0 +1,37 @@
+\doxysection{Ficheiro.\+h}
+\hypertarget{_ficheiro_8h_source}{}\label{_ficheiro_8h_source}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Ficheiro.h@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Ficheiro.h}}
+\mbox{\hyperlink{_ficheiro_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*****************************************************************/}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <stdlib.h>}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_structs_8h}{Structs.h}}"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#pragma\ region\ Importacao\ e\ contagem}}
+\DoxyCodeLine{00019\ \textcolor{keywordtype}{int}*\ \mbox{\hyperlink{_ficheiro_8h_a67016c7a6f573ed5b72b195a54e72835}{ImportarValoresFicheiro}}(\textcolor{keywordtype}{int}\ quant,\ \textcolor{keywordtype}{char}\ nomeFicheiro[]);}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00024\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_ficheiro_8h_a27e04ddf45ccdb14d2d15962fed05ba7}{ContarLinhas}}(\textcolor{keywordtype}{char}\ nomeFicheiro[],\ \textcolor{keywordtype}{int}*\ erro);}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00029\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_ficheiro_8h_a870083c2516f0c744c57c56ea1ead29c}{ContarColunas}}(\textcolor{keywordtype}{char}\ nomeFicheiro[],\ \textcolor{keywordtype}{int}*\ erro);}
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00031\ \textcolor{preprocessor}{\#pragma\ region\ Guardar\ e\ carregar\ grafo}}
+\DoxyCodeLine{00035\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_ficheiro_8h_a2c51213a32979c0a6c4d974cbcd20d98}{GuardarGrafoBinario}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ listaVer,\ \textcolor{keywordtype}{char}*\ nomeFicheiro);}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00040\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_ficheiro_8h_a9a0de49ccce6b9925a04b31d1720a585}{GuardarAdjacenciasBinario}}(\mbox{\hyperlink{struct_adjacente}{Adjacente}}*\ listaAdja,\ \textcolor{keywordtype}{char}\ nomeFicheiro,\ \textcolor{keywordtype}{int}\ idVerticeOrigem);}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00045\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_ficheiro_8h_a2503d29974f6de7754860dd6db840187}{CarregarVerticesBinario}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ h,\ \textcolor{keywordtype}{char}*\ fileName);}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00050\ \mbox{\hyperlink{struct_grafo}{Grafo}}*\ \mbox{\hyperlink{_ficheiro_8h_a3a2c7ce2b3887802e0c48b448a27ed88}{CarregarAdjacenciasBinario}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ gr,\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ g);}
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#pragma\ region\ Metodos\ Extra}}
+\DoxyCodeLine{00056\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_ficheiro_8h_a4850b2e2355cfc62ced3a2fe38e67337}{MostrarValores}}(\textcolor{keywordtype}{int}*\ valores,\ \textcolor{keywordtype}{int}\ quantValores);}
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ }
+
+\end{DoxyCode}

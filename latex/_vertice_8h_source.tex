@@ -1,0 +1,41 @@
+\doxysection{Vertice.\+h}
+\hypertarget{_vertice_8h_source}{}\label{_vertice_8h_source}\index{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Vertice.h@{TP-\/EDA\_27969-\/MarcoCardoso\_Grupo2-\/LIB/Vertice.h}}
+\mbox{\hyperlink{_vertice_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*****************************************************************/}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <stdlib.h>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_structs_8h}{Structs.h}}"{}}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_vertice_8h}{Vertice.h}}"{}}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_grafo_8h}{Grafo.h}}"{}}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#pragma\ region\ Criação\ e\ Inserção}}
+\DoxyCodeLine{00024\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_vertice_8h_a730df06ef5793ff8ab98f81a14a51235}{CriarVertice}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ \textcolor{keywordtype}{char}\ nome);}
+\DoxyCodeLine{00028\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_vertice_8h_a192ce9891277e5989619c65bd7d20523}{InserirVerticeLista}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ listaVer,\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ verNovo);}
+\DoxyCodeLine{00032\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_vertice_8h_a813b2f084fa49fbe0b698966a8b9eda7}{CriarVerticesInserirLista}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ listaVertices,\ \textcolor{keywordtype}{int}\ quantVertices);}
+\DoxyCodeLine{00036\ \mbox{\hyperlink{struct_grafo}{Grafo}}*\ \mbox{\hyperlink{_vertice_8h_a1d226cf413abbc102444fe207dba45a5}{InsereVerticeGrafo}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ g,\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ listaVertices,\ \textcolor{keywordtype}{int}\ quantVertices);}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00039\ \textcolor{preprocessor}{\#pragma\ region\ Remoções}}
+\DoxyCodeLine{00043\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_vertice_8h_a4e1b7a99b006c7bfb83bf05f3c1989b9}{DestroiVertice}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ verticeRemover);}
+\DoxyCodeLine{00047\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_vertice_8h_ab0e47318f0b8df0284996bdbcb1a3af9}{EliminaVertice}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ listaVer,\ \textcolor{keywordtype}{int}\ idVertice);}
+\DoxyCodeLine{00051\ \mbox{\hyperlink{struct_grafo}{Grafo}}*\ \mbox{\hyperlink{_vertice_8h_afca57fe820c774993f36e97a78b3a9f4}{EliminaVerticeGrafo}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ g,\ \textcolor{keywordtype}{int}\ idVertice);}
+\DoxyCodeLine{00055\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_vertice_8h_a876f9d345fc076332e36433bb4e0fd1a}{EliminaAdjacenciaAllVertices}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ listaVer,\ \textcolor{keywordtype}{int}\ idAdj);}
+\DoxyCodeLine{00056\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#pragma\ region\ Utilidade}}
+\DoxyCodeLine{00061\ \textcolor{keywordtype}{bool}*\ \mbox{\hyperlink{_vertice_8h_ab5e78e4ad676402c4b7b4da683da3674}{HasVertice}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ listaVer,\ \textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00065\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{_vertice_8h_aba4bccb59a13b174aa8100096f6f2847}{HasVerticeGrafo}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ g,\ \textcolor{keywordtype}{int}\ idVertice);}
+\DoxyCodeLine{00069\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_vertice_8h_a5835d32d064f5ef0166e13cc57991f46}{OndeEstaVertice}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ listaVer,\ \textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00073\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_vertice_8h_a8a243ff4d44afb7d8dd4687243c60c50}{OndeEstaVerticeGrafo}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ gr,\ \textcolor{keywordtype}{int}\ idVertice);}
+\DoxyCodeLine{00077\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_vertice_8h_ae5aa851afa46fba4e3502199f615930e}{MostrarListaVertices}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ listaVertices);}
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00079\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ }
+
+\end{DoxyCode}

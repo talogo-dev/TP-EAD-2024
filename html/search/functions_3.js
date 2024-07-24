@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['elimiminaadj_0',['ElimiminaAdj',['../_adjacencia_8c.html#a531c8b1dad9febcf52d3769ac221bcfe',1,'ElimiminaAdj(Adjacente *listAdj, int idAdj):&#160;Adjacencia.c'],['../_adjacencia_8h.html#a531c8b1dad9febcf52d3769ac221bcfe',1,'ElimiminaAdj(Adjacente *listAdj, int idAdj):&#160;Adjacencia.c']]],
+  ['elimiminaalladj_1',['ElimiminaAllAdj',['../_adjacencia_8c.html#acd9a773da1b59eaefe859cf66590753e',1,'ElimiminaAllAdj(Adjacente *listAdj):&#160;Adjacencia.c'],['../_adjacencia_8h.html#acd9a773da1b59eaefe859cf66590753e',1,'ElimiminaAllAdj(Adjacente *listAdj):&#160;Adjacencia.c']]],
+  ['eliminaadjacenciaallvertices_2',['EliminaAdjacenciaAllVertices',['../_vertice_8c.html#a876f9d345fc076332e36433bb4e0fd1a',1,'EliminaAdjacenciaAllVertices(Vertice *listaVer, int idAdj):&#160;Vertice.c'],['../_vertice_8h.html#a876f9d345fc076332e36433bb4e0fd1a',1,'EliminaAdjacenciaAllVertices(Vertice *listaVer, int idAdj):&#160;Vertice.c']]],
+  ['eliminaadjgrafo_3',['EliminaAdjGrafo',['../_adjacencia_8c.html#adb2eb4386bc8bc9d2d5a05351187e851',1,'EliminaAdjGrafo(Grafo *g, int origem, int destino):&#160;Adjacencia.c'],['../_adjacencia_8h.html#adb2eb4386bc8bc9d2d5a05351187e851',1,'EliminaAdjGrafo(Grafo *g, int origem, int destino):&#160;Adjacencia.c']]],
+  ['eliminavertice_4',['EliminaVertice',['../_vertice_8c.html#ab0e47318f0b8df0284996bdbcb1a3af9',1,'EliminaVertice(Vertice *listaVer, int idVertice):&#160;Vertice.c'],['../_vertice_8h.html#ab0e47318f0b8df0284996bdbcb1a3af9',1,'EliminaVertice(Vertice *listaVer, int idVertice):&#160;Vertice.c']]],
+  ['eliminaverticegrafo_5',['EliminaVerticeGrafo',['../_vertice_8c.html#afca57fe820c774993f36e97a78b3a9f4',1,'EliminaVerticeGrafo(Grafo *g, int idVertice):&#160;Vertice.c'],['../_vertice_8h.html#afca57fe820c774993f36e97a78b3a9f4',1,'EliminaVerticeGrafo(Grafo *g, int idVertice):&#160;Vertice.c']]]
+];
